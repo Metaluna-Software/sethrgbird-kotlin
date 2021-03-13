@@ -302,7 +302,7 @@
                         <configuration>
                             <resources>
                                 <resource>
-                                    <directory>client/build</directory>
+                                    <directory>client/dist</directory>
                                 </resource>
                             </resources>
                             <outputDirectory>${basedir}/target/classes/public</outputDirectory>
