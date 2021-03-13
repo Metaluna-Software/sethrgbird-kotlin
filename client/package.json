@@ -10,7 +10,7 @@
     "postbuild": "npm run eslint",
     "build:dev": "webpack --mode development",
     "start": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
