@@ -23,6 +23,7 @@
     "sourceType": "module"
   },
   "plugins": [
+    "jest",
     "react"
   ],
   "rules": {
@@ -39,14 +40,9 @@
       }
     ],
     "jest/no-large-snapshots": [
-      "error",
+      "warn",
       {
-        "maxSize": 200,
-        "whitelistedSnapshots": {
-          "/path/to/file.js.snap": [
-            "snapshot name 1"
-          ]
-        }
+        "maxSize": 200
       }
     ],
     "react/jsx-indent-props": [

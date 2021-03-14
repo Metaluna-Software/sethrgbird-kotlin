@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -26,9 +25,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(srcPath,'html', 'index.html'),
+      template: path.join(srcPath, 'html', 'index.html'),
       filename: path.join(pubPath, 'index.html'),
-      favicon: path.join(srcPath, 'images', 'favicon.ico')
+      favicon: path.join(srcPath, 'favicon.ico')
     }),
     new CopyWebpackPlugin([
       { from: path.join(srcPath, 'images'), to: 'images' },

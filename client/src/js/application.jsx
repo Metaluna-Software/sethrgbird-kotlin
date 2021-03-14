@@ -1,12 +1,10 @@
-import React from 'react';
-import './style.css';
-
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import * as React from 'react';
 
 class Application extends React.Component {
   render() {
     return (
-      <p>Hello world</p>
+      <p>Future home of sethrgbird.com</p>
       // <Router>
       //   <Navigation/>
       //   <div id='main' role='main'>

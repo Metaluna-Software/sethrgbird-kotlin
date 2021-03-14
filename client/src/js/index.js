@@ -1,6 +1,6 @@
-import Application from 'application';
-import React from 'react';
-import { render} from 'react-dom'
+import Application from './application';
+import { render } from 'react-dom';
+import * as React from 'react';
 
 const domRoot = document.getElementById('root');
 

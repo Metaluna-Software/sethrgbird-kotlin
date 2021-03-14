@@ -1,11 +1,13 @@
 package com.bhl.srgb.seth
 
 import com.bhl.srgb.seth.extension.hash
+import com.bhl.srgb.seth.handler.HealthHandler
 import com.bhl.srgb.seth.handler.PageHandler
 import com.google.inject.Inject
 import io.javalin.Javalin
 import io.javalin.apibuilder.ApiBuilder.after
 import io.javalin.apibuilder.ApiBuilder.before
+import io.javalin.apibuilder.ApiBuilder.get
 import io.javalin.apibuilder.ApiBuilder.path
 import io.javalin.http.Context
 import io.javalin.plugin.rendering.JavalinRenderer
@@ -19,6 +21,7 @@ import java.util.UUID
  * Starts and runs Javalin web service
  */
 class WebServer @Inject constructor(
+    private val healthHandler: HealthHandler,
     private val pageHandler: PageHandler,
 ) {
     companion object {
@@ -62,12 +65,8 @@ class WebServer @Inject constructor(
             before { beforeAll() }
             after { ctx -> afterAll(ctx) }
 
-            path("/*") {
-//                get(pageHandler)
-//                post(pageHandler)
-//                put(pageHandler)
-//                delete(pageHandler)
-                log.error("API route attempted")
+            path("health") {
+                get(healthHandler)
             }
         }
     }
