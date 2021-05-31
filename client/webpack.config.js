@@ -1,36 +1,100 @@
+const Autoprefixer = require('autoprefixer');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const rtl = require('@mjhenkes/postcss-rtl');
 
 const srcPath = path.join(__dirname, 'src');
 const pubPath = path.join(__dirname, 'dist');
 
 module.exports = {
-  entry: './src/js/index.js',
+  mode: 'development',
   module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: ['babel-loader']
-      },
-    ]
+    rules: [{
+      oneOf: [
+        {
+          test: /\.(jsx|js)$/,
+          exclude: /node_modules/,
+          loader: 'babel-loader',
+        },
+        {
+          test: /\.(scss|css)$/,
+          use: [
+            {
+              loader: MiniCssExtractPlugin.loader
+            },
+            {
+              loader: 'css-loader',
+              options: {
+                modules: {
+                  mode: 'global',
+                  localIdentName: '[name]__[local]___[hash:base64:5]',
+                },
+                importLoaders: 2,
+              },
+            },
+            {
+              loader: 'postcss-loader',
+              options: {
+                postcssOptions: {
+                  plugins: [
+                    rtl(),
+                    Autoprefixer(),
+                  ],
+                },
+              },
+            },
+            {
+              loader: 'sass-loader',
+            },
+          ],
+        },
+        {
+          test: /\.(png|svg|jpg|gif|otf|eot|ttf|woff|woff2)$/,
+          type: 'asset/resource',
+        }],
+    }],
   },
   output: {
-    path: pubPath,
-    filename: '[name].[hash].bundle.js'
+    filename: 'js/[name].[contenthash].bundle.js',
+    publicPath: '',
+    assetModuleFilename: 'assets/[hash][[ext][query]'
   },
+  devServer: {
+    port: 3000,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3001',
+        pathRewrite: { '^/api': '' },
+      },
+      '/index.html': {
+        bypass: (req, res) => {
+          res.setHeader('Content-Type', 'text/html');
+          return '/index.html.tpl';
+        },
+      },
+    },
+    contentBase: pubPath,
+    open: true,
+    openPage: 'http://localhost:3000',
+  },
+  devtool: 'inline-source-map',
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(srcPath, 'html', 'index.html'),
-      filename: path.join(pubPath, 'index.html'),
-      favicon: path.join(srcPath, 'favicon.ico')
+      template: path.join(srcPath, 'html', 'index.html.tpl'),
+      filename: path.join(pubPath, 'index.html.tpl'),
+      favicon: path.join(srcPath, 'favicon.ico'),
+      chunks: ['raf', 'babel-polyfill', 'main'],
+      inject: true,
     }),
-    new CopyWebpackPlugin([
-      { from: path.join(srcPath, 'images'), to: 'images' },
-    ]),
+    new MiniCssExtractPlugin({
+      filename: '[name]-[chunkhash].css',
+      chunkFilename: '[name]-[chunkhash].css',
+      ignoreOrder: true,
+    }),
   ],
+
 };

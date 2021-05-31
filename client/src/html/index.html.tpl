@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en">
 
 <head>
-    <title>Seth RG Bird</title>
+    <title>Seth's Website</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 </head>

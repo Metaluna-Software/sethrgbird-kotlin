@@ -1,0 +1,9 @@
+/* change the colors */
+@import "../node_modules/bootstrap/scss/functions";
+
+$theme-colors: (
+        primary: #7e0607
+);
+@import "../node_modules/bootstrap/scss/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -2,6 +2,7 @@ package com.bhl.srgb.seth.handler
 
 import com.bhl.srgb.seth.Driver
 import com.bhl.srgb.seth.WebServer.Companion.APP_NAMESPACE
+import com.bhl.srgb.seth.WebServer.Companion.APP_ROOT
 import com.bhl.srgb.seth.extension.hash
 import com.bhl.srgb.seth.extension.secureCookie
 import com.github.mustachejava.MustacheNotFoundException
@@ -19,6 +20,7 @@ class PageHandler : Handler {
     private val log = LoggerFactory.getLogger(this.javaClass)
     override fun handle(ctx: Context) {
         ctx.header("Cache-Control", "max-age=0")
+        ctx.header("Content-Type", "text/html")
         val csrfToken = UUID.randomUUID().toString()
         val csrfTokenHashCookieName = "csrf-token-hash"
         val csrfTokenHeader = "Csrf-Token"
@@ -31,6 +33,7 @@ class PageHandler : Handler {
             ctx.render(
                 "public$path.tpl",
                 TemplateUtil.model(
+                    "appRoot", APP_ROOT,
                     "publicRoot", APP_NAMESPACE,
                     "config", "<script nonce='${Driver.nonce}'></script>",
                     "time", Date().time

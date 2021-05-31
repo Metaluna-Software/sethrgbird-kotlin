@@ -1,29 +1,32 @@
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import * as React from 'react';
+import '../style.css';
+import Navigation from './navigation';
+import About from './about';
+import Home from './home';
+import Favorites from './favorites';
 
 class Application extends React.Component {
   render() {
     return (
-      <p>Future home of sethrgbird.com</p>
-      // <Router>
-      //   <Navigation/>
-      //   <div id='main' role='main'>
-      //     <Switch>
-      //       <Route path='/contact.html'>
-      //         <ContactUs enJson={this.enJson()}/>
-      //       </Route>
-      //       <Route path='/veterans.html'>
-      //         <VeteransPage enJson={this.enJson()}/>
-      //       </Route>
-      //       <Route path='/memorial.html'>
-      //         <MemorialPage enJson={this.enJson()}/>
-      //       </Route>
-      //       <Route path='/'>
-      //         <VeteransPage enJson={this.enJson()}/>
-      //       </Route>
-      //     </Switch>
-      //   </div>
-      // </Router>
+      <div className={'container'}>
+        <Router>
+          <Navigation/>
+          <div id="main" role="main">
+            <Switch>
+              <Route path="/about">
+                <About/>
+              </Route>
+              <Route path="/favorites">
+                <Favorites/>
+              </Route>
+              <Route path="/">
+                <Home/>
+              </Route>
+            </Switch>
+          </div>
+        </Router>
+      </div>
     );
   }
 }

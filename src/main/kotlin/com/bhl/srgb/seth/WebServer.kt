@@ -26,6 +26,7 @@ class WebServer @Inject constructor(
 ) {
     companion object {
         const val APP_NAMESPACE = ""
+        const val APP_ROOT = ""
         const val DEFAULT_PORT = 8080
         const val DEFAULT_BYTES = 120000000L
     }
@@ -81,7 +82,7 @@ class WebServer @Inject constructor(
                     "base-uri 'none'; " +
                     "connect-src 'self' https:; " +
                     "img-src 'self' data:; " +
-                    "script-self 'self' 'nonce-${Driver.nonce}';"
+                    "'nonce-${Driver.nonce}';"
         )
         ctx.header("X-Frame-Options", "SAMEORIGIN")
         ctx.header("X-Xss-Protection", "1; mode=block")
