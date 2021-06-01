@@ -52,13 +52,16 @@ module.exports = {
         {
           test: /\.(png|svg|jpg|gif|otf|eot|ttf|woff|woff2)$/,
           type: 'asset/resource',
+          generator: {
+            filename: 'assets/[name][ext][query]'
+          },
         }],
     }],
   },
   output: {
     filename: 'js/[name].[contenthash].bundle.js',
     publicPath: '',
-    assetModuleFilename: 'assets/[hash][[ext][query]'
+    assetModuleFilename: 'assets/[name][[ext][query]'
   },
   devServer: {
     port: 3000,

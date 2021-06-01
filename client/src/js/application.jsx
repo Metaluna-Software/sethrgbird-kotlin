@@ -5,6 +5,8 @@ import Navigation from './navigation';
 import About from './about';
 import Home from './home';
 import Favorites from './favorites';
+import Computer from './computer';
+import Cars from './cars';
 
 class Application extends React.Component {
   render() {
@@ -19,6 +21,12 @@ class Application extends React.Component {
               </Route>
               <Route path="/favorites">
                 <Favorites/>
+              </Route>
+              <Route path="/computer">
+                <Computer/>
+              </Route>
+              <Route path="/cars">
+                <Cars/>
               </Route>
               <Route path="/">
                 <Home/>

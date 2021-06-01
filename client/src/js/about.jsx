@@ -4,7 +4,7 @@ import '../style.css';
 class About extends React.Component {
   render() {
     return (
-      <div className={''}>
+      <div className={'page-section seth-section'}>
         <p className="about">
           I am married to my best friend and love of my life Matthew. We got married in Nov 2016 after being together
           since July 2013. We celebrated at our home in the Summer of 2017 with friends and family over some Kansas
