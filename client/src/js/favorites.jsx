@@ -1,17 +1,17 @@
 import * as React from 'react';
 import '../style.css';
-import Eternal from '../images/eternal.jpg'
-import Carrey from '../images/carrey.jpg'
-import Nolan from '../images/nolan.jpg'
-import AD from '../images/ad.jpg'
-import H3H3 from '../images/h3h3.jpg'
-import Eminem from '../images/eminem.jpg'
-import Alyx from '../images/alyx.jpg'
-import Nico from '../images/nico.jpg'
-import Smw from '../images/smw.gif'
-import Monopoly from '../images/monopoly.jpg'
-import Snes from '../images/snes.jpg'
-import Euchre from '../images/euchre.jpg'
+import Eternal from '../images/eternal.jpg';
+import Carrey from '../images/carrey.jpg';
+import Nolan from '../images/nolan.jpg';
+import AD from '../images/ad.jpg';
+import H3H3 from '../images/h3h3.jpg';
+import Eminem from '../images/eminem.jpg';
+import Alyx from '../images/alyx.jpg';
+import Nico from '../images/nico.jpg';
+import Smw from '../images/smw.gif';
+import Monopoly from '../images/monopoly.jpg';
+import Snes from '../images/snes.jpg';
+import Euchre from '../images/euchre.jpg';
 
 class Favorites extends React.Component {
   render() {

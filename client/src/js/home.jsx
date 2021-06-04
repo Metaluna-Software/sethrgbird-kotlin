@@ -1,16 +1,16 @@
 import * as React from 'react';
 import '../style.css';
 import Youtube from '../images/youtube.png';
-import Twitter from '../images/twitter.png'
-import LinkedIn from '../images/linkedIn.png'
-import Steam from '../images/steam.jpg'
-import Ebay from '../images/ebay.png'
-import Amazon from '../images/amazon.png'
-import Instagram from '../images/instagram.jpg'
-import VGChartz from '../images/vgchartz.png'
-import RA from '../images/ra.jpg'
-import Veterans from '../images/veterans.jpg'
-import ADC from '../images/adc.jpg'
+import Twitter from '../images/twitter.png';
+import LinkedIn from '../images/linkedIn.png';
+import Steam from '../images/steam.jpg';
+import Ebay from '../images/ebay.png';
+import Amazon from '../images/amazon.png';
+import Instagram from '../images/instagram.jpg';
+import VGChartz from '../images/vgchartz.png';
+import RA from '../images/ra.jpg';
+import Veterans from '../images/veterans.jpg';
+import ADC from '../images/adc.jpg';
 
 class Home extends React.Component {
   getYear() {

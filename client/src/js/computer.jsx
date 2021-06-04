@@ -1,13 +1,13 @@
 import * as React from 'react';
 import '../style.css';
-import ComputerV1 from '../images/computerV1.jpg';
-import ComputerV2 from '../images/computerV2.jpg';
-import ComputerV3 from '../images/computerV3.jpg';
-import ComputerV4 from '../images/computerV4.jpg';
-import ComputerV5 from '../images/computerV5.jpg';
-import ComputerV6 from '../images/computerV6.jpg';
-import ComputerV7 from '../images/computerV7.jpg';
-import ComputerV8 from '../images/computerV8.jpg';
+import ComputerV1 from '../images/computers/computerV1.jpg';
+import ComputerV2 from '../images/computers/computerV2.jpg';
+import ComputerV3 from '../images/computers/computerV3.jpg';
+import ComputerV4 from '../images/computers/computerV4.jpg';
+import ComputerV5 from '../images/computers/computerV5.jpg';
+import ComputerV6 from '../images/computers/computerV6.jpg';
+import ComputerV7 from '../images/computers/computerV7.jpg';
+import ComputerV8 from '../images/computers/computerV8.jpg';
 
 class Computer extends React.Component {
   render() {
@@ -138,7 +138,7 @@ class Computer extends React.Component {
             <div className={'col-md-4'}>
               <div className={'seth-tile'}>
                 <h3>Dec 2009</h3>
-                <p>One of the GX2's is sold due to heating issues when both of them are used. It was a fun
+                <p>One of the GX2&apos;s is sold due to heating issues when both of them are used. It was a fun
                   experiment.</p>
               </div>
             </div>
@@ -155,7 +155,7 @@ class Computer extends React.Component {
             <div className={'col-md-4'}>
               <div className={'seth-tile'}>
                 <h3>Jan 2009</h3>
-                <p>Case upgrade to a Thermaltake V9 mid-tower, it's actually very well designed and everything fit well
+                <p>Case upgrade to a Thermaltake V9 mid-tower, it&apos;s actually very well designed and everything fit well
                   despite going smaller.</p>
                 <img src={ComputerV5} alt={'computer'} className={'seth-tile-img'}/>
               </div>
@@ -163,9 +163,9 @@ class Computer extends React.Component {
             <div className={'col-md-4'}>
               <div className={'seth-tile'}>
                 <h3>Sept 2008</h3>
-                <p>Time to finally upgrade the ole monitor, can&apos;t be watching blu-rays on a CRT. New monitor: 22"
+                <p>Time to finally upgrade the ole monitor, can&apos;t be watching blu-rays on a CRT. New monitor: 22&quot;
                   Samsung TV
-                  replaces the 19" flat screen CRT. It was a beast though and I ended up with two CRTs due to an error
+                  replaces the 19&quot; flat screen CRT. It was a beast though and I ended up with two CRTs due to an error
                   in
                   shipping they never caught. It once fell out of my car after arriving at a LAN, didn&apos;t phase it a
                   bit.</p>
