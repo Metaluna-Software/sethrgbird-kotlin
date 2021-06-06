@@ -7,6 +7,7 @@ import Home from './home';
 import Favorites from './favorites';
 import Computer from './computer';
 import Cars from './cars';
+import TTG from './ttg';
 
 class Application extends React.Component {
   render() {
@@ -27,6 +28,9 @@ class Application extends React.Component {
               </Route>
               <Route path="/cars">
                 <Cars/>
+              </Route>
+              <Route path="/ttg">
+                <TTG/>
               </Route>
               <Route path="/">
                 <Home/>
