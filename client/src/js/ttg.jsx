@@ -50,6 +50,19 @@ import School1 from '../images/ttg/school1.jpg';
 import School2 from '../images/ttg/school2.jpg';
 import School3 from '../images/ttg/school3.jpg';
 import School4 from '../images/ttg/school4.jpg';
+import TrashPickUp from '../images/ttg/trash.png';
+import BiMonthly from '../images/ttg/bimonthly.png';
+import Mongolian from '../images/ttg/mongolian.png';
+import LastCover from '../images/ttg/lastCover.jpg';
+import LastArticle from '../images/ttg/lastIssueArticle.png';
+import PriceHistory from '../images/ttg/priceHistory.jpg';
+import FriendlyNeighborChecklist from '../images/ttg/friendlyNeighborChecklist.jpg';
+import PetChecklist from '../images/ttg/petInventory.jpg';
+import JokesOnDeck from '../images/ttg/jokesOnDeck.jpg';
+import JackGardenArticle from '../images/ttg/jackGardenArticle.jpg';
+import JackGarden from '../images/ttg/gardening.png';
+import MaryThanks from '../images/ttg/maryThanks.jpg';
+import Ads from '../images/ttg/ads.jpg';
 
 class TTG extends React.Component {
   render() {
@@ -62,9 +75,9 @@ class TTG extends React.Component {
             copies of the
             gazettes, however there is something intimate and personal about keeping them special to the neighborhood. I
             am happy to send PDFs to families of the triangle, but what I am doing on this page instead is a dive into
-            the story behind the story. I will have articles and clippings from specific editions so you'll get some
-            peek into the content, but not a verbatim copy. Hopefully it brings some new content for those in it since
-            the beginning and some insight into what it was for others. Hope you enjoy!
+            the story behind the story. I will have articles and clippings from specific editions so you&apos;ll get
+            some peek into the content. Hopefully it brings some new content for those in it since the beginning and
+            some insight into what it was for others. Hope you enjoy!
           </p>
         </div>
         <div className={'page-section seth-section'}>
@@ -83,16 +96,14 @@ class TTG extends React.Component {
         </div>
         <div className={'page-section seth-section'}>
           <h3>The idea</h3>
-          <p>
-            In 7th grade, my English teacher (Mrs. Deem) gave me an idea to start a neighborhood newspaper. She
-            didn&apos;t directly suggest it, but I credit her with the seed that turned into this adventure. Of course
-            my parents were very supportive as well as they always were with these <i>ideas Seth was coming up
-            with</i> and I remember brain-storming ideas for sections with mom in the kitchen while making dinner.
-            It was Jan 1999 and the world was a different place then and even more stuck in time was our neighborhood in
-            rural
-            Indiana. With most neighbors being family or friends of family it is not unfair to say we had an incredibly
-            safe neighborhood. The type of place where any 7th grader could go up to anyone&apos;s front door and start
-            asking the for family history, birthdays and all kinds of stuff as you'll soon see.
+          <p>In 7th grade, my English teacher (Mrs. Deam) inspired me to further my non-fiction writing. She didn&apos;t
+            directly suggest the newspaper, but I credit her with the seed that turned into this adventure. Of course my
+            parents were very supportive as well as they always were with these <i>ideas Seth was coming up with</i> and
+            I remember brain-storming ideas for sections with mom in the kitchen while making dinner. It was Jan 1999
+            and the world was a different place then and even more stuck in time was our neighborhood in rural Indiana.
+            With most neighbors being family or friends of family it is not unfair to say we had an incredibly safe
+            neighborhood. The type of place where any 7th grader could go up to anyone&apos;s front door and start
+            asking for family history, birthdays and all kinds of stuff as you&apos;ll soon see.
           </p>
           <p>My friend Andrew and I started the idea for a joint-venture where we would help each
             other. He was planning
@@ -155,7 +166,8 @@ class TTG extends React.Component {
           <h3>Non-triangleans</h3>
           <p>A person not residing within the triangle. Although in my first issue I said the
             newspaper was for neighbors only I quickly got requests from others. This was primarily family and friends
-            of family outside of the triangle. The furthest away customer was Tennessee! These non-triangleans didn't
+            of family outside of the triangle. The furthest away customer was Tennessee! These non-triangleans
+            didn&apos;t
             get the full experience though, they would often receive reduced content due to the cost of printing.
             However they also paid the most as they had to pay for shipping plus a special non-resident mark-up. I also
             could not quite land on the spelling of this word I made up and sometimes added an <i>i</i> to it.</p>
@@ -181,7 +193,7 @@ class TTG extends React.Component {
             and near the end I dropped weather altogether. It was the least liked/used section from my survey of
             readers. A weather section seems like an odd choice for a monthly newsletter because it is. It was only 5
             days and usually a day behind by the time I printed and distributed it. The people in Tennessee got to see
-            what it was like last week though!</p>
+            what it was like last week for us in Indiana though!</p>
           <img src={SnowOutside} alt={'snow cover'} className={'seth-tile-img'}/>
           <img src={HotOutside} alt={'hot cover'} className={'seth-tile-img'}/>
           <img src={Y2kok} alt={'y2k cover'} className={'seth-tile-img'}/>
@@ -208,20 +220,53 @@ class TTG extends React.Component {
           <img src={SurveyUpdates3} alt={'survey'} className={'seth-tile-img'}/>
         </div>
         <div className={'page-section seth-section'}>
+          <h3>Ads</h3>
+          <p>The Triangle Gazette was not exempt from the commercial influence of ads. However, in keeping with the
+            local relevance, they were often of nearby businesses. Even our neighborhood Schwan&apos;s man had his
+            business card listed for awhile.</p>
+          <p>A neighbor needing a babysitter posted their ad in the gazette, as well as the nearby restaurant
+            Crossroads. This image below is not inclusive (no reprint ad fees were received) but provides some idea on
+            what you might have seen. Ads were limited to the 4th page above the comics section. This was primarily
+            because that&apos;s what the layout template suggested for larger images. The same section was used in some
+            issues for a survey to customers.</p>
+          <img src={Ads} alt={'ads'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'page-section seth-section'}>
           <h3>Home Cook&apos;in</h3>
           <p>Inside content would include a recipe from a neighbor. I never searched the web, etc it had to be from
             someone local. I think almost every neighbor provided something, but Mrs Parnell provided the most. She was
-            a cooking/baking master and would provide treats to various neighbors around Christmas time that were
-            superb. This is probably one section where I had more than enough content each month and it never printed
-            empty. Maybe a Triangle Cookbook is in order from everything I had published and what I still have in my
-            <i> future articles</i> file. Yes, I had a filing cabinet where I kept most of the content I received for
-            the gazette. Most content was submitted on paper either hand-written or printed out and I don&apos;t recall
-            if I
-            ever received content from email, though it was possible as I published me email in every issue. I still
-            have that file and you&apos;ve seen some of that content already. You will see more as you keep reading.</p>
+            a cooking/baking master and would distribute treats to various neighbors at Christmas. This is probably one
+            section where I had more than enough content each month and it never printed empty. Maybe a Triangle
+            Cookbook is in order from everything I had published and what I still have in my <i>future
+              articles</i> file. Yes, I had a filing cabinet where I kept most of the content I received for
+            the gazette. Most content was submitted on paper either hand-written or printed out. I don&apos;t recall if
+            I ever received content from email, though it was possible as I published my email in every issue. I still
+            have that file and you&apos;ve seen some of that (raw) content already. You will see more as you keep
+            reading.</p>
           <img src={StrawberryDessert} alt={'strawberry dessert'} className={'seth-tile-img'}/>
           <img src={CheesePotatoes} alt={'cheese potatoes'} className={'seth-tile-img'}/>
           <img src={Cookies} alt={'christmas cookies'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'page-section seth-section'}>
+          <h3>The file</h3>
+          <p>I have always been an organized person, even when things started to get chaotic. The gazette was no
+            different, I had a file cabinet where I kept articles in progress, future and past. As well as spreadsheets
+            to track who had contributed to which sections. We can&apos;t have the same mystery person twice! And if
+            you&apos;re still not convinced, I have those files 22 years later!</p>
+          <p>I wanted to share some pre and post article examples to show how I took notes in interviews and what the
+            article looked like afterwards. I learned in late eighth grade that when interviewing for a story you should
+            record the audio, who knew! I also wanted to just show some of the behind the scenes stuff I used to
+            stay organized.</p>
+          <p>First is a copy of the interview notes I took from Jack about gardening and then the article I turned it
+            into next to it. Then there are some jokes I had planned and marked off each month. The price list for
+            customers, always keeping the financials tidy. The list of families in the Friendly Neighbor section and the
+            issue they were featured. Lastly, the always incomplete pet census.</p>
+          <img src={JackGardenArticle} alt={'jack garden article'} className={'seth-tile-img'}/>
+          <img src={JackGarden} alt={'jack garden article'} className={'seth-tile-img'}/>
+          <img src={JokesOnDeck} alt={'jokes on deck'} className={'seth-tile-img'}/>
+          <img src={PriceHistory} alt={'price deck'} className={'seth-tile-img'}/>
+          <img src={FriendlyNeighborChecklist} alt={'price deck'} className={'seth-tile-img'}/>
+          <img src={PetChecklist} alt={'price deck'} className={'seth-tile-img'}/>
         </div>
         <div className={'page-section seth-section'}>
           <h3>Sports and Pets</h3>
@@ -282,8 +327,8 @@ class TTG extends React.Component {
             to watch the TV to get the weather, but it was still very accessible.</p>
           <p>The comic section, however, Jokes did survey well and every good paper has a funny section. I had a book
             for tongue twisters so these were easy to fill. The guideline was more or less a saying or statement and I
-            remember getting stuck on what to call this. Quote of the Day in hind-sight probably would have made more
-            sense, but guideline left it too open ended and sometimes they got off track a little bit. The content was
+            remember getting stuck on what to call this. Quote of the Month in hind-sight probably would have made more
+            sense because guideline left it too open ended and sometimes they seemed to get off track. The content was
             usually filled in with clip art to build the story. Lots of clip art was used if that is not obvious by now
             and made for an easy way to get graphics when I didn&apos;t have pictures. Sometimes even the comic section
             was coordinated such as fish or dog theme as seen below.</p>
@@ -305,12 +350,13 @@ class TTG extends React.Component {
           <p>The weather was fun because it was always different and I got to select different graphics. This is obvious
             below as they did not seem to ever match month to month. I am not sure if I thought they needed to be more
             detailed or what, but for a section providing little value I sure wanted accurate graphics.</p>
-          <p>I did a deep analysis of MSFT stock so if you had purchased 1 share of MSFT when I first published the
-            stock symbol how much would you have now? The stock split twice since Mar 1999 and the purchase price would
-            have been $165 for a single share. This means you'd have paid $41.25 / share. As of this writing, the share
-            price is $250. While this is a nice little gain of $835, the dividends paid in the same time frame would
-            have netted you an additional $83 for a grand total of $918 profit from a $165 investment over 22 years
-            ago. You would have been much better off dumping MSFT in Sept 2012 and picking up FB stock at a steal for
+          <p>For this analysis of sorts in Summer 2021, I did a deep analysis of MSFT stock. If you had purchased 1
+            share of MSFT when I first published the stock symbol how much would you have now? The stock split twice
+            since Mar 1999 and the purchase price would have been $165 for a single share. This means you&apos;d have
+            paid $41.25 / share. As of this writing, the share price is $250. While this is a nice little gain of $835,
+            the dividends paid in the same time frame would have netted you an additional $83 for a grand total of $918
+            profit from a $165 investment over 22 years ago. You would have been much better off dumping MSFT in Sept
+            2012 and picking up FB stock at a steal for
             $18 a share which today is $325 per share!</p>
           <p>The stocks section may have been slightly more interesting if the <i>change</i> amount was from the
             previous month so it had some continuity between editions. Seeing if it went up or down from the single day
@@ -326,11 +372,75 @@ class TTG extends React.Component {
           <img src={Stocks4} alt={'stocks'} className={'seth-tile-img'}/>
         </div>
         <div className={'page-section seth-section'}>
-          <h3>Trash pickup</h3>
-          <p>Trash pick up was a way for neighbors to join in on a neighborly activity together. I was able to get some
-            trash bags donated by the Highway Dept and distributed them. I promoted the trash pick up day and rallied
-            everyone to help out. On the day of, I used our lawn tractor with trailer to collect the trash and pick up
-            any larger items we found.</p>
+          <h3>Neighborly activities</h3>
+          <p>Beyond the gazette, I was trying to make the triangle a better place for everyone. It&apos;s a neighborly
+            trait
+            I still have to this day. Trash pick up was a way for neighbors to join in on a neighborly activity
+            together. I was able to get some trash bags donated by the Highway Dept and distribute them. I also made
+            sure they would pick them all up on our trash day, which they did. I promoted the trash pick up day and
+            rallied everyone to help out. On the day of, I used our lawn tractor with trailer to collect the trash and
+            pick up any larger items we found. It was a good turn-out and we made it all the way around!</p>
+          <p>The Mongolian cook-out was another such success. We had families bring side dishes/dessert and we had
+            prepared meat Mongolian style on a large pan over a fire (article below). My relentless pursuit to bring
+            neighbors together would meet its biggest challenger however, eighth grade. </p>
+          <img src={TrashPickUp} alt={'trash pickup'} className={'seth-tile-img'}/>
+          <img src={Mongolian} alt={'mongolian'} className={'seth-tile-img'}/>
+          <img src={BiMonthly} alt={'bimonthly'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'page-section seth-section'}>
+          <h3>The last issue</h3>
+          <p>News was happening and editions were starting to get spaced out further and further. I found myself
+            over-committed and the gazette was losing priority. Here&apos;s what the timeline looked like:</p>
+          <ul>
+            <li>(9/14/00) Twentieth edition released (eighth-grade school year starts)</li>
+            <li>(10/03/00) Twenty first issue released (early) because I was promoting the BBQ</li>
+            <li>(11/?/00) The twenty second and third issues were combined and released in November (seems on track, but
+              things are slipping behind the scenes). A survey goes out as I try to reel in content sprawl and focus on
+              important sections.
+            </li>
+            <li>(05/?/01) The twenty third issue is released (again?). Whenever a new baby was born that
+              was a sure fire way to motivate a new edition. We had several new babies on the triangle during the run
+              and they always got front page.
+            </li>
+            <li>(08/?/01) The twenty fourth issue (the last issue) was released sometime late summer and I published
+              birthdays through Nov as I believed to be quarterly at this point, however that next edition would never
+              come. Motivation for the gazette had waned. The motivation was always going to drop off at some point and
+              the BBQ was really the send-off I just didn&apos;t know it at the time.
+            </li>
+          </ul>
+          <p>The year 2001 was full of life changing events, losing my grand-father whom I was very close
+            with and lived next door, HANDS, starting high school, and 9/11 changing how we operate as a society
+            forever. My closest non-family neighbor had just had their first born and their lives were now fully
+            involved with her (rightly so). If only time was infinite and we could do everything we wanted, but as I was
+            learning becoming a young adult you have to choose and the gazette would get the file.
+          </p>
+          <img src={LastCover} alt={'last cover'} className={'seth-tile-img'}/>
+          <img src={LastArticle} alt={'last cover'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'page-section seth-section'}>
+          <h3>Postmortem</h3>
+          <p>I am most surprised I kept it going for almost thee years of my life, which was essentially through my
+            Middle School era. In looking back though, my motivation was very high and the bar for publishing an edition
+            was actually quite low. My biggest obstacles for getting some late issues out were technology related
+            (crashed computer -twice) as well over-commitment of extra-curriculars interfering. I love writing,
+            specifically non-fiction, and the social aspect of meeting with neighbors came naturally.</p>
+          <p>The consequences for me of the gazette were large and maybe my path would have been similar without it, but
+            I attribute a lot to it.</p>
+          <p>It starts as it always does, but helping a neighbor. Our neighbor Jack had surgery and it was fall/winter
+            timeframe and we were helping them split wood as it was their primary heat source. Mary publishes an
+            article in her favorite newspaper (my words) thanking my grand-father, father and myself for the help.</p>
+          <p>Her daughter trying to echo this appreciation nominates me for a Heart of Gold award. In addition to the
+            log splitting, mentions the local newspaper and my neighborly aspirations. I win with one other contestant
+            and we each get $1000 to donate to a charity of our choosing.</p>
+          <p>My 7th grade guidance counselor is aware of all of this. I get sent to a young future leader conference in
+            Fort Wayne with a couple of others from my grade. I am also a member of student counsel during this time. At
+            the end of 7th grade, she (my guidance counselor) nominates me to be on a non-profit organization called
+            H.A.N.D.S. which is a local chapter of a multi-county Community Foundation organization. This allows
+            students grade 8 through 12 from the local schools to distribute $15,000 yearly through grants submitted
+            by members of the community (usually teachers).</p>
+          <p>I fully attribute the gazette for my membership in HANDS and it would not have happened without the
+            neighbors around me.</p>
+          <img src={MaryThanks} alt={'mary thanks'} className={'seth-tile-img'}/>
         </div>
       </div>
     );
