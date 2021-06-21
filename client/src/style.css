@@ -4,21 +4,11 @@
 ## Dk Gray - 333333
 ## Cream - e9e3aa
 */
+
 .navbar {
     top: 0;
     min-height: 70px;
     border-bottom: #7e0607 double 20px;
-}
-
-.page-section {
-    margin-top: 50px;
-    margin-bottom: 60px;
-}
-
-.seth-section {
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px 15px #808080;
 }
 
 .banner {
@@ -30,14 +20,23 @@
     min-height: 545px;
 }
 
-.section-wrapper {
-    width: 70%;
-    margin: auto;
+.content-section {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 15px #808080;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.content-tile-section {
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .seth-tile {
+    padding: 10px;
     border-radius: 5px;
-    box-shadow: 10px 10px 5px 5px #808080;
+    box-shadow: 10px 10px 10px 10px #808080;
     margin-bottom: 25px;
 }
 
@@ -51,79 +50,15 @@
     max-width: 50%;
 }
 
-p {
-    display: block;
-    color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-align: left;
-}
-
-span {
-    color: #00FF99;
-}
-.ttg p {
+.content-section p {
     display: block;
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     padding: 5px;
     text-align: left;
-}
-
-p.about {
-    display: block;
-    color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding: 5px;
-    text-align: left;
-}
-
-p.cars {
-    display: block;
-    color: #333333;
-    padding: 5px;
-    text-align: center;
-}
-
-/** Page header and link info **/
-#pageheader {
-    height: 159px;
-    width: 1000px;
-    display: block;
-}
-
-p.header {
-    padding-top: 10px;
-    color: #7e0606;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
 }
 
 .center {
     text-align: center;
 }
-
-/*
-#links {
-    margin-right: auto;
-    margin-left: auto;
-    height: 40px;
-    width: 960px;
-    background-color: #333333;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid black;
-    padding: 15px;
-}
-
-#links a {
-    font-size: 22px;
-    text-decoration: none;
-    display: inline;
-    color: white;
-    padding: 12px;
-}*/

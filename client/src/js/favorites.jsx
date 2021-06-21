@@ -16,7 +16,7 @@ import Euchre from '../images/euchre.jpg';
 class Favorites extends React.Component {
   render() {
     return (
-      <div className={'page-section'}>
+      <div className={'content-section'}>
         <h6>The following lists are favorites in media in various categories. There is a top choice along with runner
           ups.</h6>
         <div className={'row'}>

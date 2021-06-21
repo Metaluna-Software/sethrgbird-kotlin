@@ -167,13 +167,13 @@ class Cars extends React.Component {
   render() {
     return (
       <div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <p>I hope you are not on mobile data for this page, it&apos;s going to be a few bytes. You can enlarge
             pictures by right-clicking and opening them in a new tab. Which car makes the most cameos in the galleries?
             Which car has the most mentions? Can you guess my favorite make (don&apos;t forget imposter models)?
             Enjoy</p>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#21) 2021 Toyota Tundra (Apr 21 - ?)</h5>
           <p>While looking at Supras that morning, Legends Toyota mentioned a Tundra that met our criteria had just
             arrived. They took the morning to prep and unpack it. 4 hours after buying the Supra and after test driving
@@ -189,7 +189,7 @@ class Cars extends React.Component {
             updates.</p>
           <img src={TundraSupra} alt={'2021 toyota tundra supra'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#20) 2021 Toyota Supra (Apr 21 - ?)</h5>
           <p>Technically this is Matt&apos;s car, but as a married couple, I claim rights to display as ours haha. This
             idea had been brewing since February and Matt had been doing his research on it. It&apos;s a very fun car to
@@ -198,7 +198,7 @@ class Cars extends React.Component {
             to more stories in this thing!</p>
           <img src={Supra2101} alt={'2021 toyota supra'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#19) 2004 GMC Envoy XUV (Jan 19 - May 21)</h5>
           <p>This was previously my mom&apos;s, then my brother&apos;s vehicle. At the time of purchase, repairs had
             elapsed on it and he was not able to drive it. I made a trade and fixed his computer for the title. I had it
@@ -225,7 +225,7 @@ class Cars extends React.Component {
           <img src={Envoy0403} alt={'2004 gmc envoy xuv'} className={'seth-tile-img'}/>
           <img src={Envoy0404} alt={'2004 gmc envoy xuv'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#18) 2017 Fiat 124 Spider Classica (Jul 18 - Apr 21)</h5>
           <p>Our first driveable convertible (sorry, not sorry Sebring). Getting tired of driving the truck across
             Kansas City (40 min commute each way) every day and wanted
@@ -246,7 +246,7 @@ class Cars extends React.Component {
           <img src={Fiat1703} alt={'2017 124 fiat'} className={'seth-tile-img'}/>
           <img src={Fiat1704} alt={'2017 124 fiat'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#17) 2018 Ford Fusion (Mar 18 - Apr 21)</h5>
           <p>Caught our eye in late winter and we were ready for another change-up. This time we opted for the Hybrid.
             It looks like the same color, but this one is black, has a larger screen inside and push-button start. We
@@ -266,7 +266,7 @@ class Cars extends React.Component {
           <img src={Fusion1810} alt={'2018 ford fusion'} className={'seth-tile-img'}/>
           <img src={Fusion1811} alt={'2018 ford fusion'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#16) 2014 Ford Fusion (Jul 16 - Mar 18) - Hayley</h5>
           <p>Found this little gem while looking for a car for Matt. We had sort of given up on the Sebring by this
             point, but needed something for him to drive. The Aurora was struggling and the Sebring was losing hope. My
@@ -282,7 +282,7 @@ class Cars extends React.Component {
           <img src={Fusion1406} alt={'2014 ford fusion'} className={'seth-tile-img'}/>
           <img src={Fusion1407} alt={'2014 ford fusion'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#15) 2007 Toyota Tundra (May 15 - Jul 18) - Tina</h5>
           <p>After looking at several trucks, Tina stood out in many ways. First her color of blue was very appealing,
             but she had all the qualities I was looking for in a truck. The bed was over 5&apos; (6.5&apos;), lots of
@@ -298,7 +298,7 @@ class Cars extends React.Component {
           <img src={Tundra0704} alt={'2007 toyota tundra'} className={'seth-tile-img'}/>
           <img src={Tundra0705} alt={'2007 toyota tundra'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#14) 2006 Chrysler Sebring (Nov 14 - May 17)</h5>
           <p>Bought this out of someone&apos;s yard thinking it could be fixed for Matt to drive. It was a convertible
             and had 52k miles on it. The paint and body was is excellent shape. It &apos;only needed a water
@@ -314,7 +314,7 @@ class Cars extends React.Component {
           <img src={Sebring0604} alt={'2006 Chrysler Sebring'} className={'seth-tile-img'}/>
           <img src={Sebring0605} alt={'2006 Chrysler Sebring'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#13) 2013 Scion FRS (Apr 13 - May 15) - Veronica</h5>
           <p>Meet Veronica. I have been planning this car since I first drove one in late summer 2012. It was early
             morning, dew still on the grass and I was out garage sale hunting with Stephen. A sign by the road read:
@@ -359,7 +359,7 @@ class Cars extends React.Component {
           <img src={Race02} alt={'2013 Scion Frs'} className={'seth-tile-img'}/>
           <img src={Race03} alt={'2013 Scion Frs'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#12) 1998 Mazda 626 (Apr 12 - Aug 12) - Sophie</h5>
           <p>Meredith was at a good value for trading and I was getting bored with her. I first saw Sophie online and
             the next day went to go test drive her. She was perfect. Comfortable ride, good options and clean. A few
@@ -383,7 +383,7 @@ class Cars extends React.Component {
           <img src={Mazda9807} alt={'1998 mazda 626'} className={'seth-tile-img'}/>
           <img src={Mazda9808} alt={'1998 mazda 626'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#11) 1996 Oldsmobile Aurora (Mar 12 - ?) - Roxanne</h5>
           <p>Well after months of looking, I had finally found the right one. She was very well kept and had 47k miles
             at time of purchase. My plan was to make her my hobby car and get her running smooth again. A car
@@ -495,7 +495,7 @@ class Cars extends React.Component {
             <li>Fix low oil pressure issue, whatever it costs Doc, just fix her right! -in progress</li>
           </ol>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#10) 2006 Toyota Camry LE (Feb 10 - Apr 12) - Meredith</h5>
           <p>Came into college with a new XB, traded for another XB then graduated and left with a Vibe. Getting my
             first job was going to be great, I was going to be rolling in cash lol. Moving to
@@ -512,7 +512,7 @@ class Cars extends React.Component {
           <img src={Camry0603} alt={'2006 Toyota Camry'} className={'seth-tile-img'}/>
           <img src={Camry0604} alt={'2006 Toyota Camry'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#9) 2009 Pontiac Vibe GT (Aug 08 - Feb 10) - Trixie</h5>
           <p>It only took one test drive and I knew I wanted this car. I went right back to the dealership and told them
             to sell me that car. I am not sure what chemistry there is between a person and a car, maybe its the slight
@@ -543,7 +543,7 @@ class Cars extends React.Component {
           <img src={Vibe0912} alt={'2009 Pontiac Vibe GT'} className={'seth-tile-img'}/>
           <img src={Vibe0913} alt={'2009 Pontiac Vibe GT'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#8) 2008 Scion Xb (July 07 - Aug 08) - Medea</h5>
           <p>I leased the Scion in July of 2007 and loved it. The biggest upgrade I
             enjoyed over the 2005 XB was the cruise control and the auto transmission. It was also bigger - such as
@@ -555,7 +555,7 @@ class Cars extends React.Component {
           <img src={Xb0803} alt={'2008 Scion Xb'} className={'seth-tile-img'}/>
           <img src={Xb0804} alt={'2008 Scion Xb'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#7) 1993 Toyota Tercel (April 07 - Aug 08) - Teri</h5>
           <p>Teri is a 1993 Toyota Tercel. I bought it so that my brother would have something to drive. I usually only
             drove it when it needed to go to the shop, but it was a fun little car to drive. It is also the most
@@ -580,7 +580,7 @@ class Cars extends React.Component {
           <img src={Tercel9313} alt={'1993 Toyota Tercel'} className={'seth-tile-img'}/>
           <img src={Tercel9314} alt={'1993 Toyota Tercel'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#6) 2005 Scion XB (Feb 05 - July 07)</h5>
           <p>My XB endured a lot for a new car. Even without me trying to modify it (sorry Aurora). Although I did put
             my Panasonic slide out TV in the dash and two 15&quot; subs in the back with Audiobahn amp. Ah yes, before
@@ -635,7 +635,7 @@ class Cars extends React.Component {
             thought, but just to be sure, when I traded my car in sometime later I made sure it was after dark. I
             don&apos;t have any pictures because they wouldn&apos;t really show anything.</p>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#5) 1998 GMC Sonoma ( Oct 04 - Feb 05)</h5>
           <p>Next up, a 1998 GMC Sonoma. It was great during the winter, although it still did not handle as well as my
             Aurora (who could live up to the high standards of the Aurora). I took the ABS fuse out of it because I got
@@ -660,7 +660,7 @@ class Cars extends React.Component {
           <img src={Sonoma9801} alt={'1998 GMC Sonoma'} className={'seth-tile-img'}/>
           <img src={Sonoma9802} alt={'1998 GMC Sonoma'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#4) 1990 Cadillac Brougham ( Feb 05 - Mar 05)</h5>
           <p>This was a fun car. It was a convenient purchase at the time and I enjoyed
             driving it. Very dependable, but not economical (14mpg highway). I drove it to Bloomington, IN from Columbia
@@ -671,7 +671,7 @@ class Cars extends React.Component {
           <img src={Brougham9001} alt={'1990 Cadillac Brougham'} className={'seth-tile-img'}/>
           <img src={Brougham9002} alt={'1990 Cadillac Brougham'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#3) 1991 Mazda 626 ( Aug 04 - Aug 05 )</h5>
           <p>I bought this car hoping it would last me through the winter as a project that I could drive after the
             Aurora. It ended up getting scrapped the next summer and was
@@ -689,7 +689,7 @@ class Cars extends React.Component {
           <img src={Mazda9101} alt={'1991 mazda 626'} className={'seth-tile-img'}/>
           <img src={Mazda9102} alt={'1991 mazda 626'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#2) 1995 Oldsmobile Aurora (~Feb 03 - Oct 04)</h5>
           <p>This is my favorite car to date. A 1995 Oldsmobile Aurora. I had this car for most of my high school career
             and I love it to this day. Maybe someday I will find a car that I can love more than this one, but until
@@ -750,7 +750,7 @@ class Cars extends React.Component {
           <img src={Aurora9501} alt={'1995 Oldsmobile Aurora'} className={'seth-tile-img'}/>
           <img src={Aurora9502} alt={'1995 Oldsmobile Aurora'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>(#1) 1991 Chevrolet S-10 (Aug 02 - ~Feb 03)</h5>
           <p>This was my first vehicle and was my parent&apos; 3rd vehicle. I didn&apos;t like this
             truck when I had it because it had no options, but looking back at it, a great first vehicle. I also learned
@@ -764,7 +764,7 @@ class Cars extends React.Component {
           <img src={S109102} alt={'1991 Chevrolet S-10'} className={'seth-tile-img'}/>
           <img src={S109103} alt={'1991 Chevrolet S-10'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>Honorable Mention - 4th Garage Space Award: 2019 Kubota BX2380</h5>
           <p>I bought my dad&apos;s Kubota (BX2370) after my parents moved from the farm to in-town. I then decided to
             upgrade it to the newer model about a year afterwards. It has been far superior to anything I&apos;ve mowed
@@ -776,14 +776,14 @@ class Cars extends React.Component {
           <img src={Kubota1903} alt={'2019 Kubota BX2380'} className={'seth-tile-img'}/>
           <img src={Kubota1904} alt={'2019 Kubota BX2380'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>Honorable Mention - Most desired Award: Aston Martin</h5>
           <p>The car of my dreams for some day when I can afford it, whatever the current model year is called: some
             descendent of the Vanquish. They are custom built in England and sell for about $450,000. I would like one
             of these sometime in my life. Do you think it resembles an Aurora? Just a little?</p>
           <img src={DB90801} alt={'2008 Aston Martin DBS'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>Honorable Mention - First and Worst Rental Award: 2005 Chevrolet Cavalier (Jun 05)</h5>
           <p>This was my first rental car (a 2005 Chevy Cavalier) while my 05 Xb was in the shop. It was not a good car
             and I would never recommend this car to anyone. It is a toy, not a real car and I treated it accordingly. It
@@ -800,7 +800,7 @@ class Cars extends React.Component {
           <img src={Cavalier0501} alt={'2005 Chevrolet Cavalier'} className={'seth-tile-img'}/>
           <img src={Cavalier0502} alt={'2005 Chevrolet Cavalier'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h5>Honorable Mention - Most pieces Award: 2004 Chevrolet Cavalier (Aug 13)</h5>
           <p>This was a scrap car (engine seized) on the property where I co-rented a duplex. I think it may have been
             repressed memories from that rental car, but this was very cathartic.</p>
@@ -815,7 +815,7 @@ class Cars extends React.Component {
           <img src={Cavalier0409} alt={'2004 Chevrolet Cavalier'} className={'seth-tile-img'}/>
           <img src={Cavalier0410} alt={'2004 Chevrolet Cavalier'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <p>Hope you enjoyed looking at my cars. They are a big part of my life as you can see. My only regret is that
             some of the pictures I have are not of my actual car. I &apos;stole&apos; them from the Internets. Sshh.</p>
         </div>

@@ -67,8 +67,8 @@ import Ads from '../images/ttg/ads.jpg';
 class TTG extends React.Component {
   render() {
     return (
-      <div className={'ttg'}>
-        <div className={'page-section seth-section'}>
+      <div>
+        <div className={'content-section'}>
           <h1>The Triangle Gazette</h1>
           <h3>Forward</h3>
           <p>My initial idea for this page on my website was to simply post online
@@ -80,7 +80,7 @@ class TTG extends React.Component {
             some insight into what it was for others. Hope you enjoy!
           </p>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The Triangle</h3>
           <p>The triangle was a 2.2 mile stretch of 3 roads in Whitley County, IN where together they
             formed a triangle. It was unusual in the fact that most roads (country or city) formed squares. They were
@@ -94,16 +94,17 @@ class TTG extends React.Component {
           <img src={TriangleTwo} alt={'triangle'} className={'seth-tile-img'}/>
           <img src={Triangle} alt={'triangle'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The idea</h3>
           <p>In 7th grade, my English teacher (Mrs. Deam) inspired me to further my non-fiction writing. She didn&apos;t
             directly suggest the newspaper, but I credit her with the seed that turned into this adventure. Of course my
             parents were very supportive as well as they always were with these <i>ideas Seth was coming up with</i> and
             I remember brain-storming ideas for sections with mom in the kitchen while making dinner. It was Jan 1999
-            and the world was a different place then and even more stuck in time was our neighborhood in rural Indiana.
-            With most neighbors being family or friends of family it is not unfair to say we had an incredibly safe
-            neighborhood. The type of place where any 7th grader could go up to anyone&apos;s front door and start
-            asking for family history, birthdays and all kinds of stuff as you&apos;ll soon see.
+            and our rural neighborhood in Indiana was about 1/3 related to me (original family farm from my
+            great-grandparents divided up over time). With most neighbors being family or friends of family it is not
+            unfair to say we had an incredibly safe neighborhood. The type of place where any 7th grader could go up to
+            anyone&apos;s front door and start asking for family history, birthdays and all kinds of stuff as
+            you&apos;ll soon see.
           </p>
           <p>My friend Andrew and I started the idea for a joint-venture where we would help each
             other. He was planning
@@ -114,7 +115,7 @@ class TTG extends React.Component {
             this project. I had also pulled in 2 other friends to help with content so I was moving right along.</p>
           <img src={Survey1} alt={'survey'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The creator</h3>
           <p>First, a bit about 7th grade Seth Bird. He was a straight A student through middle and
             high school. His
@@ -135,7 +136,7 @@ class TTG extends React.Component {
             fun.</p>
           <img src={FirstPage} alt={'ttg page 1'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The first issue</h3>
           <p>The idea was to bring the neighborhood even closer together by filling in the gaps for
             new
@@ -162,7 +163,7 @@ class TTG extends React.Component {
           <img src={FirstEditionTwo} alt={'ttg cover 2'} className={'seth-tile-img'}/>
           <img src={FirstEditionThree} alt={'ttg cover 3'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Non-triangleans</h3>
           <p>A person not residing within the triangle. Although in my first issue I said the
             newspaper was for neighbors only I quickly got requests from others. This was primarily family and friends
@@ -179,7 +180,7 @@ class TTG extends React.Component {
           <img src={FirstPetPage2} alt={'first pet page2'} className={'seth-tile-img'}/>
           <img src={PriceNonTrianglean} alt={'price non trianglean'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Cover stories</h3>
           <p>The newspaper started off like most newspapers, with a cover story which was the biggest
             news item of the
@@ -200,7 +201,7 @@ class TTG extends React.Component {
           <img src={Fires} alt={'fires cover'} className={'seth-tile-img'}/>
           <img src={TwoColumns} alt={'y2k cover'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The Friendly Neighbor</h3>
           <p>This section focused on a deep dive of a family. I would sometimes call out the month before which family I
             wanted to provide a story for the next issue. Nothing like being called out in front of everyone! It seems
@@ -219,7 +220,7 @@ class TTG extends React.Component {
           <img src={SurveyUpdates2} alt={'survey'} className={'seth-tile-img'}/>
           <img src={SurveyUpdates3} alt={'survey'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Ads</h3>
           <p>The Triangle Gazette was not exempt from the commercial influence of ads. However, in keeping with the
             local relevance, they were often of nearby businesses. Even our neighborhood Schwan&apos;s man had his
@@ -231,7 +232,7 @@ class TTG extends React.Component {
             issues for a survey to customers.</p>
           <img src={Ads} alt={'ads'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Home Cook&apos;in</h3>
           <p>Inside content would include a recipe from a neighbor. I never searched the web, etc it had to be from
             someone local. I think almost every neighbor provided something, but Mrs Parnell provided the most. She was
@@ -247,7 +248,7 @@ class TTG extends React.Component {
           <img src={CheesePotatoes} alt={'cheese potatoes'} className={'seth-tile-img'}/>
           <img src={Cookies} alt={'christmas cookies'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The file</h3>
           <p>I have always been an organized person, even when things started to get chaotic. The gazette was no
             different, I had a file cabinet where I kept articles in progress, future and past. As well as spreadsheets
@@ -268,7 +269,7 @@ class TTG extends React.Component {
           <img src={FriendlyNeighborChecklist} alt={'price deck'} className={'seth-tile-img'}/>
           <img src={PetChecklist} alt={'price deck'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Sports and Pets</h3>
           <p>I&apos;ve touched on this a bit already, but I really did not follow sports at all (still don&apos;t). My
             friend Jordan was eager to write about them, mainly basketball, but anything really, so he would send me
@@ -290,7 +291,7 @@ class TTG extends React.Component {
           <img src={PetsSports} alt={'pet sports'} className={'seth-tile-img'}/>
           <img src={LocalSports} alt={'local sports'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>School Happenings</h3>
           <p>School Happenings which was from personal knowledge usually, but also came from information the school sent
             home. Heavily influenced by ISMS (middle school I attended) news, but also some contributions from proud
@@ -301,7 +302,7 @@ class TTG extends React.Component {
           <img src={School3} alt={'school happenings'} className={'seth-tile-img'}/>
           <img src={School4} alt={'school happenings'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>National News</h3>
           <p>National news was anything that occurred outside of the triangle. They typically occurred within our same
             county, but you know, not within the Triangle. To this day I have no idea how I chose some of these
@@ -318,7 +319,7 @@ class TTG extends React.Component {
           <img src={NationalNews4} alt={''} className={'seth-tile-img'}/>
           <img src={NationalNews3} alt={''} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Filler content</h3>
           <p>I was a busy kid, school, sports and being a kid (so I told myself), so I had to come up with some content
             that felt useful, but at the same time I could quickly generate. Weather and stocks were probably the least
@@ -338,7 +339,7 @@ class TTG extends React.Component {
           <img src={Comic4} alt={'comic'} className={'seth-tile-img'}/>
           <img src={Comic5} alt={'comic'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Stocks and Weather</h3>
           <p>As mentioned above these were probably the least useful, but I enjoyed making these sections for their own
             reasons. For stocks, I got to learn about the financial world if not just for a little bit. At some point,
@@ -371,7 +372,7 @@ class TTG extends React.Component {
           <img src={Stocks3} alt={'stocks'} className={'seth-tile-img'}/>
           <img src={Stocks4} alt={'stocks'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Neighborly activities</h3>
           <p>Beyond the gazette, I was trying to make the triangle a better place for everyone. It&apos;s a neighborly
             trait
@@ -387,7 +388,7 @@ class TTG extends React.Component {
           <img src={Mongolian} alt={'mongolian'} className={'seth-tile-img'}/>
           <img src={BiMonthly} alt={'bimonthly'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>The last issue</h3>
           <p>News was happening and editions were starting to get spaced out further and further. I found myself
             over-committed and the gazette was losing priority. Here&apos;s what the timeline looked like:</p>
@@ -417,7 +418,7 @@ class TTG extends React.Component {
           <img src={LastCover} alt={'last cover'} className={'seth-tile-img'}/>
           <img src={LastArticle} alt={'last cover'} className={'seth-tile-img'}/>
         </div>
-        <div className={'page-section seth-section'}>
+        <div className={'content-section'}>
           <h3>Postmortem</h3>
           <p>I am most surprised I kept it going for almost thee years of my life, which was essentially through my
             Middle School era. In looking back though, my motivation was very high and the bar for publishing an edition
@@ -426,9 +427,11 @@ class TTG extends React.Component {
             specifically non-fiction, and the social aspect of meeting with neighbors came naturally.</p>
           <p>The consequences for me of the gazette were large and maybe my path would have been similar without it, but
             I attribute a lot to it.</p>
-          <p>It starts as it always does, but helping a neighbor. Our neighbor Jack had surgery and it was fall/winter
+          <p>It starts, as it always does, by helping a neighbor. Our neighbor Jack had surgery and it was fall/winter
             timeframe and we were helping them split wood as it was their primary heat source. Mary publishes an
-            article in her favorite newspaper (my words) thanking my grand-father, father and myself for the help.</p>
+            article in her favorite newspaper (my words) thanking my grand-father, father, brother, and myself for the
+            help.
+          </p>
           <p>Her daughter trying to echo this appreciation nominates me for a Heart of Gold award. In addition to the
             log splitting, mentions the local newspaper and my neighborly aspirations. I win with one other contestant
             and we each get $1000 to donate to a charity of our choosing.</p>

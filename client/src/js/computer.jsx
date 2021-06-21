@@ -13,7 +13,7 @@ class Computer extends React.Component {
   render() {
     return (
       <div>
-        <div className={'page-section'}>
+        <div className={'content-section'}>
           <h6>I spend a lot of time on my computer including cleaning and upgrading it. Here is my current setup</h6>
           <div className={'row'}>
             <div className={'col-md-6'}>
@@ -40,7 +40,7 @@ class Computer extends React.Component {
             </div>
           </div>
         </div>
-        <div className={'page-section'}>
+        <div className={'content-tile-section'}>
           <div className={'row'}>
             <div className={'col-md-4'}>
               <div className={'seth-tile'}>
