@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const rtl = require('@mjhenkes/postcss-rtl');
 
 const srcPath = path.join(__dirname, 'src');
-const pubPath = path.join(__dirname, 'dist');
+const pubPath = path.join(__dirname, 'build');
 
 module.exports = {
   mode: 'development',
@@ -59,6 +59,7 @@ module.exports = {
     }],
   },
   output: {
+    path: pubPath,
     filename: 'js/[name].[contenthash].bundle.js',
     publicPath: '',
     assetModuleFilename: 'assets/[name][[ext][query]'
@@ -73,7 +74,7 @@ module.exports = {
       '/index.html': {
         bypass: (req, res) => {
           res.setHeader('Content-Type', 'text/html');
-          return '/index.html.tpl';
+          return '/index.html';
         },
       },
     },
@@ -87,8 +88,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(srcPath, 'html', 'index.html.tpl'),
-      filename: path.join(pubPath, 'index.html.tpl'),
+      template: path.join(srcPath, 'html', 'index.html'),
+      filename: path.join(pubPath, 'index.html'),
       favicon: path.join(srcPath, 'favicon.ico'),
       chunks: ['raf', 'babel-polyfill', 'main'],
       inject: true,

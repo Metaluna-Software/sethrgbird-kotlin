@@ -24,6 +24,7 @@ hs_err_pid*
 
 # Generated Artifacts
 client/dist/*
+client/build/*
 client/aggregated-translations/*
 client/node/*
 client/node_modules/*
