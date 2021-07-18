@@ -100,5 +100,4 @@ module.exports = {
       ignoreOrder: true,
     }),
   ],
-
 };

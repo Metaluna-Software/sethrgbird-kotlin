@@ -66,7 +66,7 @@ class Home extends React.Component {
             </div>
             <div className={'col-md-4'}>
               <h6>Twitter</h6>
-              <a className="list-group-item list-group-item-action list-group-item-secondary"
+              <a className="list-group-item list-group-item-action list-group-item-secondary seth-tile-img"
                  href={'http://www.twitter.com/Letter3'}><img src={Twitter} alt={'twitter'}/></a>
             </div>
             <div className={'col-md-4'}>

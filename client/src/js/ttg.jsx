@@ -381,9 +381,9 @@ class TTG extends React.Component {
             sure they would pick them all up on our trash day, which they did. I promoted the trash pick up day and
             rallied everyone to help out. On the day of, I used our lawn tractor with trailer to collect the trash and
             pick up any larger items we found. It was a good turn-out and we made it all the way around!</p>
-          <p>The Mongolian cook-out was another such success. We had families bring side dishes/dessert and we had
+          <p>The Mongolian cook-out was another such success. We had families bring side dishes/desserts and we had
             prepared meat Mongolian style on a large pan over a fire (article below). My relentless pursuit to bring
-            neighbors together would meet its biggest challenger however, eighth grade. </p>
+            neighbors together would meet its biggest challenger: eighth grade. </p>
           <img src={TrashPickUp} alt={'trash pickup'} className={'seth-tile-img'}/>
           <img src={Mongolian} alt={'mongolian'} className={'seth-tile-img'}/>
           <img src={BiMonthly} alt={'bimonthly'} className={'seth-tile-img'}/>

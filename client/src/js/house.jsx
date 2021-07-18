@@ -203,6 +203,27 @@ class House extends React.Component {
   render() {
     return (
       <div className={'content-tile-section'}>
+        <div className={'content-section'}>
+          <h3>Preamble</h3>
+          <p>We purchased the house as-is from the bank in foreclosure. However, my bank wanted some repairs done to
+            back the mortgage.</p>
+          <p>The repairs were fairly minimal overall, except 3 steel beams that had to be added to the basement wall,
+            which we hired out.</p>
+          <p>We didn&apos;t have to paint, but this room is going to need to be liveable for awhile, so painting it
+            ended up being a feature comfort.</p>
+          <p>The list also included adding trim around 4 windows and the back door (inside trim)</p>
+          <p>Adding 3 pieces (half-pieces or smaller) of drywall to walls with exposed studs</p>
+          <p>Front-door didn&apos;t open easily</p>
+          <p>The (then main) bathroom floor was missing pieces of linoleum</p>
+          <p>The back of the house had a section of missing siding</p>
+          <img src={InitialCleanUp1} alt={''} className={'seth-tile-img'}/>
+          <img src={InitialCleanUp2} alt={''} className={'seth-tile-img'}/>
+          <img src={InitialCleanUp3} alt={''} className={'seth-tile-img'}/>
+          <p>If making this house pretty for the bank was a game, this was round 1 (appraised at 62k) and a refinance in
+            2017 (appraised at 110k) would have us make some interesting decisions to pass inspection again. By
+            refinance #2 in 2020 (appraised at 185k), I just unlocked every door and played games on my computer, the
+            games with the bank were finally over.</p>
+        </div>
         <div className={'row'}>
           <div className={'col-md-6'}>
             <div className={'seth-tile'}>
@@ -271,27 +292,6 @@ class House extends React.Component {
                       allowFullScreen/>
             </div>
           </div>
-        </div>
-        <div className={'content-section'}>
-          <h3>Preamble</h3>
-          <p>We purchased the house as-is from the bank in foreclosure. However, my bank wanted some repairs done to
-            back the mortgage.</p>
-          <p>The repairs were fairly minimal overall, except 3 steel beams that had to be added to the basement wall,
-            which we hired out.</p>
-          <p>We didn&apos;t have to paint, but this room is going to need to be liveable for awhile, so painting it
-            ended up being a feature comfort.</p>
-          <p>The list also included adding trim around 4 windows and the back door (inside trim)</p>
-          <p>Adding 3 pieces (half-pieces or smaller) of drywall to walls with exposed studs</p>
-          <p>Front-door didn&apos;t open easily</p>
-          <p>The (then main) bathroom floor was missing pieces of linoleum</p>
-          <p>The back of the house had a section of missing siding</p>
-          <img src={InitialCleanUp1} alt={''} className={'seth-tile-img'}/>
-          <img src={InitialCleanUp2} alt={''} className={'seth-tile-img'}/>
-          <img src={InitialCleanUp3} alt={''} className={'seth-tile-img'}/>
-          <p>If making this house pretty for the bank was a game, this was round 1 (appraised at 62k) and a refinance in
-            2017 (appraised at 110k) would have us make some interesting decisions to pass inspection again. By
-            refinance #2 in 2020 (appraised at 185k), I just unlocked every door and played games on my computer, the
-            games with the bank were finally over.</p>
         </div>
         <div className={'content-section'}>
           <h3>Demo</h3>

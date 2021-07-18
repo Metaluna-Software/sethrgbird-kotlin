@@ -41,9 +41,15 @@
 }
 
 .seth-tile-img {
-    max-width: 400px;
     max-height: 240px;
     padding: 5px;
+    max-width:100%;
+}
+
+.seth-tile-img img {
+    max-height: 240px;
+    padding: 5px;
+    max-width:100%;
 }
 
 .main-computer {

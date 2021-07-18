@@ -9,6 +9,7 @@ import Computer from './computer';
 import Cars from './cars';
 import TTG from './ttg';
 import House from './house';
+import Birds from './birds';
 
 class Application extends React.Component {
   render() {
@@ -35,6 +36,9 @@ class Application extends React.Component {
               </Route>
               <Route path="/house">
                 <House/>
+              </Route>
+              <Route path="/birds">
+                <Birds/>
               </Route>
               <Route path="/">
                 <Home/>
