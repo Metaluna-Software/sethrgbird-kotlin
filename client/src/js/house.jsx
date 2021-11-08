@@ -726,28 +726,29 @@ class House extends React.Component {
         </div>
         <div className={'content-section'}>
           <h3>Windows</h3>
-          <p>The windows in the house were all vinyl replacements except 1 in the upstairs when we moved in. They were
+          <p>The windows in the house were all vinyl replacements except 1 original wood style in the upstairs when
+            we moved in. The vinyl ones were
             the contractor grade with no glass coating or argon, so very inefficient and were essentially magnifying
-            glasses for the sun. Curtains were a must for us. They also tended to fall out of their track when we tried
-            to open them and wind would come through in the winter. Needless to say they were at the end of their life.
-            We didn&apos;t know much about replacement windows going into this project but learned a lot pretty quickly.
+            glasses for the sun. Curtains were a must for us. Some were also falling out of their track when we tried
+            to open them and the bitter wind would come through in the winter. Needless to say they were at the end of their life.</p>
+            <p>We didn&apos;t know much about replacement windows going into this project but learned a lot pretty quickly.
             We acquired 10 bids for them, which was probably the max Matt could handle. We learned something new
             everytime and quickly discovered companies we would never do business with (Andersen, Alenco, Window
             Universe) and which companies seemed respectable with a good product that we included in our final round
             (Four Seasons, Window World, Sears/Transform) with a group that fell in the middle as un-inspiring, but
             probably fine we just removed them because of something we weren&apos;t getting with the others (Champion,
             Exterior Energy Consultants, Lowes/Pella). I might write up a summary of this process at some point to share
-            what we learned.
-            The bid process was about 4 weeks with 3 being collection of the bids, then a week to ask follow up
+            what we learned.</p>
+            <p>The bid process was about 4 weeks with 3 being collection of the bids, then a week to ask follow up
             questions from our finalists. Once we chose Sears/Transform we placed our order. It was just over 2 months
             for the windows to be built and shipped with about 2 weeks until the contractor scheduled his install day
-            (week).
-            During the wait time, we went ahead and ordered a new front door with storm door for the contractor to
+            (week).</p>
+            <p>During the wait time, we went ahead and ordered a new front door with storm door for the contractor to
             install as well. We also swapped the columns on the front porch to be solid steel instead of the cast iron
-            curly design. The contractor also agreed to fix the trim metal around the top of the columns.
-            Install day 1 rained, so delayed by 1 day the contractor took the next 4 days to complete the windows and
-            patio door, but was unable to finish the front door/porch at the time. It is planned for later.
-            The pictures aren&apos;t in an exact order, but sort of shows the process of removing and  installing. We
+            curly design. The contractor also agreed to fix the trim metal around the top of the columns.</p>
+            <p>Install day 1 rained, so delayed by 1 day the contractor took the next 4 days to complete the windows and
+            patio door, but was unable to finish the front door/porch at the time. It is planned for later.</p>
+            <p>The pictures aren&apos;t in an exact order, but sort of shows the process of removing and  installing. We
             had 3 places where we combined the 2 double hung style (removed the fake mullion) and made a single window
             (2 sliders and 1 picture). We replaced 2 picture windows in the back bedroom with casements. We replaced 4
             other double hungs on the first level with casements. On the 2nd floor the game room we got 2 of the same
@@ -757,8 +758,8 @@ class House extends React.Component {
             On one of the front 2nd floor windows, one of the panes cracked and is going to be replaced. I also included
             extra pictures of the giant picture window being installed on the 2nd floor from the stairway. It was a
             challenge for them, but they did it pretty smoothly once they came up with a plan; almost like they were
-            professionals.
-            Overall, a pretty smooth process for the amount of work completed (2nd most expensive project to date).
+            professionals.</p>
+            <p>Overall, a pretty smooth process for the amount of work completed (2nd most expensive project to date).
             We didn&apos;t hit any real hiccups and I even got to use my credit card for miles despite getting the cash
             discount, so extra perk!</p>
           <img src={Window00} alt={''} className={'seth-tile-img'}/>
