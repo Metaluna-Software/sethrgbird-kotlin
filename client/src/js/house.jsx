@@ -725,11 +725,12 @@ class House extends React.Component {
           <img src={Radon7} alt={''} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h3>Windows</h3>
+          <h3>Exterior Updates</h3>
+          <h4>Windows, Gutters, Columns, Doors</h4>
           <p>The windows in the house were all vinyl replacements except 1 original wood style in the upstairs when
             we moved in. The vinyl ones were
-            the contractor grade with no glass coating or argon, so very inefficient and were essentially magnifying
-            glasses for the sun. Curtains were a must for us. Some were also falling out of their track when we tried
+            contractor grade with no glass coating or argon, so very inefficient and were essentially magnifying
+            sun. Curtains were a must for us. Some were also falling out of their track when we tried
             to open them and the bitter wind would come through in the winter. Needless to say they were at the end of their life.</p>
             <p>We didn&apos;t know much about replacement windows going into this project but learned a lot pretty quickly.
             We acquired 10 bids for them, which was probably the max Matt could handle. We learned something new
@@ -762,6 +763,15 @@ class House extends React.Component {
             <p>Overall, a pretty smooth process for the amount of work completed (2nd most expensive project to date).
             We didn&apos;t hit any real hiccups and I even got to use my credit card for miles despite getting the cash
             discount, so extra perk!</p>
+          <p>The columns were swapped in favor of a more traditional look for the house (Craftsman house). The iron curly
+          columns were removed by jacking up 1 section of the porch at a time and replacing with steel square columns.</p>
+          <p>Both the back patio door and front door were also replaced with more energy efficient options. The front is
+          a fiberglass Therma Tru from Lowes called a Craftsman 6-lite.</p>
+          <p>We've also updated our accent color around the house from red to navy. This includes the entry doors and
+          other various artifacts around the house.</p>
+          <p>Lastly, we replaced the gutters on the ends of the house as well as the front porch. This aligns with the
+          gutters already added to the garage using the wider 6" vs a 4" gutter to account for the length and roof pitch.
+          In addition, we've added Leaf Filters to all gutters to ensure they remain clear, clean and working.</p>
           <img src={Window00} alt={''} className={'seth-tile-img'}/>
           <img src={Window01} alt={''} className={'seth-tile-img'}/>
           <img src={Window02} alt={''} className={'seth-tile-img'}/>
