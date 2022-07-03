@@ -162,6 +162,9 @@ import Cavalier0407 from '../images/cars/04_Cavalier_07.jpg';
 import Cavalier0408 from '../images/cars/04_Cavalier_08.jpg';
 import Cavalier0409 from '../images/cars/04_Cavalier_09.jpg';
 import Cavalier0410 from '../images/cars/04_Cavalier_10.jpg';
+import CaymanS2201 from '../images/cars/caymans_front.png';
+import CaymanS2202 from '../images/cars/caymans_back.png';
+import CaymanS2203 from '../images/cars/caymans_side.jpg';
 
 class Cars extends React.Component {
   render() {
@@ -172,6 +175,36 @@ class Cars extends React.Component {
             pictures by right-clicking and opening them in a new tab. Which car makes the most cameos in the galleries?
             Which car has the most mentions? Can you guess my favorite make (don&apos;t forget imposter models)?
             Enjoy</p>
+        </div>
+        <div className={'content-section'}>
+          <h5>(#23) 2012 Scion Xb (Jul 22 - ?)</h5>
+          <p>This one is an impulse buy mostly. I was looking for something smaller to commute around in and had
+          been looking for a small hatchback. While I do have this weird fascination with the Mirage, I could not find
+          one meeting my checklist. A dealer found this at another lot and we went to see it. After sitting in it and
+            driving it around, it felt familiar and met everything on my checklist.</p>
+          <p>Image coming soon</p>
+        </div>
+        <div className={'content-section'}>
+          <h5>(#22) 2022 Porsche Cayman S (Mar 22 - ?)</h5>
+          <p>Technically Matt&apos;s car, but its our cars now, so it goes on the list. It seems soon since the Supra
+          but he was ready to step up. He found a reputable Porsche dealer (the one in KC is not) and ordered the
+          exact one he wanted from the website. We waited about 6 months for it to be made and shipped from Germany. It
+          survived the trek across the Atlantic (the other cargo ship did not -- see Felicity Ace).</p>
+          <p>In April, while Matt was at work and coming back from lunch, the engine started acting up. He had it towed
+          to the dealership here in KC. They thought it was the injectors, so we waited 2 weeks while they ordered and
+          replaced 2 of those. After that they realized Cylinder 1 was not holding compression and figured out it was
+          a de-burring issue with the block. We waited another week for them to decide how they were going to fix it.
+          At this point, Matt reached out to customer service at Porsche North America as we were getting the run
+          around on a rental and could not get clear answers from the dealership (see above about reputable). He was
+          assigned a case manager who quickly got us answers. He got a new engine block overnighted from Germany to
+          the service center for us, he agreed to reimburse us for the rental we had already and get us a Macan to
+          drive until it was fixed, which was about 1 more week. All in, it was about 5 weeks it was down. The new
+            block sounds better and it feels like all of the power is there now.</p>
+          <p>Matt is super paranoid about the noises it makes now, but since we have never owned an actual race car
+          before it is hard to know for sure what sounds are normal.</p>
+          <img src={CaymanS2203} alt={'2022 porsche cayman s side'} className={'seth-tile-img'}/>
+          <img src={CaymanS2201} alt={'2022 porsche cayman s front'} className={'seth-tile-img'}/>
+          <img src={CaymanS2202} alt={'2022 porsche cayman s back'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
           <h5>(#21) 2021 Toyota Tundra (Apr 21 - ?)</h5>
@@ -190,7 +223,7 @@ class Cars extends React.Component {
           <img src={TundraSupra} alt={'2021 toyota tundra supra'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#20) 2021 Toyota Supra (Apr 21 - ?)</h5>
+          <h5>(#20) 2021 Toyota Supra (Apr 21 - Mar 22)</h5>
           <p>Technically this is Matt&apos;s car, but as a married couple, I claim rights to display as ours haha. This
             idea had been brewing since February and Matt had been doing his research on it. It&apos;s a very fun car to
             drive and ride in, very smooth and fast! He pinned 3 dealers in KC against each other to get the best price
