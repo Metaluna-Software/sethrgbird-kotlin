@@ -749,7 +749,7 @@ class House extends React.Component {
             curly design. The contractor also agreed to fix the trim metal around the top of the columns.</p>
             <p>Install day 1 rained, so delayed by 1 day the contractor took the next 4 days to complete the windows and
             patio door, but was unable to finish the front door/porch at the time. It is planned for later.</p>
-            <p>The pictures aren&apos;t in an exact order, but sort of shows the process of removing and  installing. We
+            <p>The pictures aren&apos;t in an exact order, but sort of shows the process of removing and installing. We
             had 3 places where we combined the 2 double hung style (removed the fake mullion) and made a single window
             (2 sliders and 1 picture). We replaced 2 picture windows in the back bedroom with casements. We replaced 4
             other double hungs on the first level with casements. On the 2nd floor the game room we got 2 of the same
@@ -760,7 +760,7 @@ class House extends React.Component {
             extra pictures of the giant picture window being installed on the 2nd floor from the stairway. It was a
             challenge for them, but they did it pretty smoothly once they came up with a plan; almost like they were
             professionals.</p>
-            <p>Overall, a pretty smooth process for the amount of work completed (2nd most expensive project to date).
+          <p>Overall, a pretty smooth process for the amount of work completed (2nd most expensive project to date).
             We didn&apos;t hit any real hiccups and I even got to use my credit card for miles despite getting the cash
             discount, so extra perk!</p>
           <p>The columns were swapped in favor of a more traditional look for the house (Craftsman house). The iron curly
