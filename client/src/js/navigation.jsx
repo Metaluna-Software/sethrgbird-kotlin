@@ -43,6 +43,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link to="birds" className="nav-link navbar-custom-90">Birds</Link>
             </li>
+            <li className="nav-item">
+              <Link to="pictures" className="nav-link navbar-custom-90">Pictures</Link>
+            </li>
           </ul>
         </div>
       </div>

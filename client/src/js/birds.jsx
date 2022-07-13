@@ -14,6 +14,7 @@ import House_finch from '../images/birds/house_finch.jpg';
 import Western_kingbird from '../images/birds/western_kingbird.jpg';
 import Downy_woodpecker from '../images/birds/downy_woodpecker.jpg';
 import American_crow from '../images/birds/american_crow.jpg';
+import Slenderbilled_gull from '../images/birds/slender-billed_gull.jpg';
 import American_robin from '../images/birds/american_robin.jpg';
 import Common_grackle from '../images/birds/common_grackle.jpg';
 import Barred_owl from '../images/birds/barred_owl.jpg';
@@ -21,6 +22,13 @@ import Blue_jay from '../images/birds/blue_jay.jpg';
 import Mourning_dove from '../images/birds/mourning_dove.jpg';
 import Willet from '../images/birds/willet.jpg';
 import Laughing_gull from '../images/birds/laughing_gull.jpg';
+import Killdeer from '../images/birds/killdeer.jpg';
+import Ruddy_shelduck from '../images/birds/ruddy_shelduck.jpg';
+import Mandarin_duck from '../images/birds/mandarin_duck.jpg';
+import Sulphurcrested_cockatoo from '../images/birds/sulphur-crested_cockatoo.jpg';
+import Eclectus_parrot from '../images/birds/eclectus_parrot.jpg';
+import Black_swan from '../images/birds/black_swan.jpg';
+import Strawnecked_ibis from '../images/birds/straw-necked_ibis.jpg';
 import '../style.css';
 
 class Birds extends React.Component {
@@ -189,9 +197,66 @@ class Birds extends React.Component {
             <h6>A species of Crows and jays</h6>
             <h6><i>Corvus brachyrhynchos</i></h6>
          
-          </div>
-        </div>
+       
       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/killdeer.jpg'><img src={Killdeer} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Killdeer</h4>
+         <h6>A species of Plovers</h6>
+         <h6><i>Charadrius vociferus</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/ruddy_shelduck.jpg'><img src={Ruddy_shelduck} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Ruddy Shelduck</h4>
+         <h6>A species of Geese</h6>
+         <h6><i>Tadorna ferruginea</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/slender-billed_gull.jpg'><img src={Slenderbilled_gull} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Slender-billed gull</h4>
+         <h6>A species of Gulls</h6>
+         <h6><i>Chroicocephalus genei</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/mandarin_duck.jpg'><img src={Mandarin_duck} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Mandarin duck</h4>
+         <h6>A species of Geese</h6>
+         <h6><i>Aix galericulata</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/sulfer-crested_cockatoo.jpg'><img src={Sulphurcrested_cockatoo} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Sulphur-crested cockatoo</h4>
+         <h6>A species of Parrots</h6>
+         <h6><i>Cacatua galerita</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/eclectus_parrot.jpg'><img src={Eclectus_parrot} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Eclectus parrot</h4>
+         <h6>A species of Parrots</h6>
+         <h6><i>Eclectus roratus</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/black_swan.jpg'><img src={Black_swan} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Black swan</h4>
+         <h6>A species of Geese</h6>
+         <h6><i>Cygnus atratus</i></h6>
+      
+       </div>
+       <div className={'col-md-4 centered_birds'}>
+       <a href='../assets/straw-necked_ibis.jpg'><img src={Strawnecked_ibis} alt={''} className={'seth-tile-img-bird'}/></a>
+         <h4>Straw-necked ibis</h4>
+         <h6>A species of Ibises and spoonbills</h6>
+         <h6><i>Threskiornis spinicollis</i></h6>
+      
+       </div>
+     </div>
+   </div>
     );
   }
 }
