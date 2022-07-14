@@ -228,7 +228,7 @@ class Birds extends React.Component {
       
        </div>
        <div className={'col-md-4 centered_birds'}>
-       <a href='../assets/sulfer-crested_cockatoo.jpg'><img src={Sulphurcrested_cockatoo} alt={''} className={'seth-tile-img-bird'}/></a>
+       <a href='../assets/sulphur-crested_cockatoo.jpg'><img src={Sulphurcrested_cockatoo} alt={''} className={'seth-tile-img-bird'}/></a>
          <h4>Sulphur-crested cockatoo</h4>
          <h6>A species of Parrots</h6>
          <h6><i>Cacatua galerita</i></h6>
