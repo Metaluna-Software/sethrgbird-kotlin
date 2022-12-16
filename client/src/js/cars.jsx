@@ -165,6 +165,16 @@ import Cavalier0410 from '../images/cars/04_Cavalier_10.jpg';
 import CaymanS2201 from '../images/cars/caymans_front.png';
 import CaymanS2202 from '../images/cars/caymans_back.png';
 import CaymanS2203 from '../images/cars/caymans_side.jpg';
+import Highlander2301 from '../images/cars/23_highlander_01.jpg';
+import Highlander2302 from '../images/cars/23_highlander_02.jpg';
+import Highlander2303 from '../images/cars/23_highlander_03.jpg';
+import Xb1201 from '../images/cars/12_xb_01.jpg';
+import Xb1202 from '../images/cars/12_xb_02.jpg';
+import Xb1203 from '../images/cars/12_xb_03.jpg';
+import Xb1204 from '../images/cars/12_xb_04.jpg';
+import Xb1205 from '../images/cars/12_xb_05.jpg';
+import Xb1206 from '../images/cars/12_xb_06.jpg';
+import Xb1207 from '../images/cars/12_xb_07.jpg';
 
 class Cars extends React.Component {
   render() {
@@ -177,12 +187,33 @@ class Cars extends React.Component {
             Enjoy</p>
         </div>
         <div className={'content-section'}>
-          <h5>(#23) 2012 Scion Xb (Jul 22 - ?)</h5>
+          <h5>(#24) 2023 Toyota Highlander (Dec 22 - ?) - Hannah</h5>
+          <p>I have been eyeing Highlanders for awhile (since maybe 2019) and was impressed with the comfort and
+            features. The Tundra was not getting driven much and I wanted something less expensive overall. Since we
+            were still in the car shortage era I opened 5 local Toyota dealer websites and started chats to see what
+            inventory looked like out there. I did not think a base model (LE) would suffice, but it was well equipped.
+            I was most interested in the Hybrid and on the fence with AWD. Overall, very happy with choice
+            (LE Fr Hybrid) and not
+            spending thousands more for things I really do not need feels good in the end. It only gets driven a couple
+            of times a week right now so it fits our lifestyle. We also did it as a lease, which I have not done since
+            the first XB, so look out 2025 Highlander!.</p>
+          <img src={Highlander2301} alt={'2023 highlander'} className={'seth-tile-img'}/>
+          <img src={Highlander2302} alt={'2023 highlander'} className={'seth-tile-img'}/>
+          <img src={Highlander2303} alt={'2023 highlander'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'content-section'}>
+          <h5>(#23) 2012 Scion Xb (Jul 22 - ?) - UberXb</h5>
           <p>This one is an impulse buy mostly. I was looking for something smaller to commute around in and had
           been looking for a small hatchback. While I do have this weird fascination with the Mirage, I could not find
           one meeting my checklist. A dealer found this at another lot and we went to see it. After sitting in it and
             driving it around, it felt familiar and met everything on my checklist.</p>
-          <p>Image coming soon</p>
+          <img src={Xb1201} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1202} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1203} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1204} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1205} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1206} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1207} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
           <h5>(#22) 2022 Porsche Cayman S (Mar 22 - ?)</h5>
@@ -207,7 +238,7 @@ class Cars extends React.Component {
           <img src={CaymanS2202} alt={'2022 porsche cayman s back'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#21) 2021 Toyota Tundra (Apr 21 - ?)</h5>
+          <h5>(#21) 2021 Toyota Tundra (Apr 21 - Dec 22) - Tina</h5>
           <p>While looking at Supras that morning, Legends Toyota mentioned a Tundra that met our criteria had just
             arrived. They took the morning to prep and unpack it. 4 hours after buying the Supra and after test driving
             this Tundra we decided to jump into this as well. We then took the picture below that evening in front of
@@ -259,7 +290,7 @@ class Cars extends React.Component {
           <img src={Envoy0404} alt={'2004 gmc envoy xuv'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#18) 2017 Fiat 124 Spider Classica (Jul 18 - Apr 21)</h5>
+          <h5>(#18) 2017 Fiat 124 Spider Classica (Jul 18 - Apr 21) - Fifi</h5>
           <p>Our first driveable convertible (sorry, not sorry Sebring). Getting tired of driving the truck across
             Kansas City (40 min commute each way) every day and wanted
             something fun and better on gas. Looked at various cars and decided to see what Fiat offered. I was never
@@ -280,7 +311,7 @@ class Cars extends React.Component {
           <img src={Fiat1704} alt={'2017 124 fiat'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#17) 2018 Ford Fusion (Mar 18 - Apr 21)</h5>
+          <h5>(#17) 2018 Ford Fusion (Mar 18 - Apr 21) - Hayley</h5>
           <p>Caught our eye in late winter and we were ready for another change-up. This time we opted for the Hybrid.
             It looks like the same color, but this one is black, has a larger screen inside and push-button start. We
             also bought this one new. We definitely loved this one as much as the first one. We put 45k miles on it in a
