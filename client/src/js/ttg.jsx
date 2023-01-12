@@ -98,8 +98,9 @@ class TTG extends React.Component {
           <h3>The idea</h3>
           <p>In 7th grade, my English teacher (Mrs. Deam) inspired me to further my non-fiction writing. She didn&apos;t
             directly suggest the newspaper, but I credit her with the seed that turned into this adventure. Of course my
-            parents were very supportive as well as they always were with these <i>ideas Seth was coming up with</i> and
-            I remember brain-storming ideas for sections with mom in the kitchen while making dinner. It was Jan 1999
+            parents were very supportive with these <i>ideas Seth was coming up with</i>.
+            I remember brain-storming ideas for sections with mom in the kitchen while making dinner, ideas were flowing.
+            It was Jan 1999
             and our rural neighborhood in Indiana was about 1/3 related to me (original family farm from my
             great-grandparents divided up over time). With most neighbors being family or friends of family it is not
             unfair to say we had an incredibly safe neighborhood. The type of place where any 7th grader could go up to
@@ -157,7 +158,7 @@ class TTG extends React.Component {
             officials and you&apos;d be right. I was committed to my pre-determined sections even if I did not have all
             of the information for them yet. I would finally get some elected official information in the 3rd
             edition.</p>
-          <p>My friend Jordan would later right my sports section as he was way more into sports than I was and he was
+          <p>My friend Jordan would later write my sports section as he was way more into sports than I was and he was
             happy to do it.</p>
           <img src={FirstEdition} alt={'ttg cover 1'} className={'seth-tile-img'}/>
           <img src={FirstEditionTwo} alt={'ttg cover 2'} className={'seth-tile-img'}/>
@@ -184,7 +185,7 @@ class TTG extends React.Component {
           <h3>Cover stories</h3>
           <p>The newspaper started off like most newspapers, with a cover story which was the biggest
             news item of the
-            month on the triangle. Themes were usually determined by a holiday in that month. The story was probably the
+            month on the triangle. Themes were usually determined by a holiday in that month. This story was probably the
             most jarring month to month for readers. It was either something
             generic like it&apos;s hot outside or it snowed outside to something more dramatic like a car exploding or
             fires everywhere. Of course there was also the issue where I figured out how to make 2 columns and
