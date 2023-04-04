@@ -883,6 +883,35 @@ class Cars extends React.Component {
           <p>Hope you enjoyed looking at my cars. They are a big part of my life as you can see. My only regret is that
             some of the pictures I have are not of my actual car. I &apos;stole&apos; them from the Internets. Sshh.</p>
         </div>
+        <div className={'content-section'}>
+          <h3>Accidents</h3>
+          <p>all listed, you decide if it counts against me</p>
+          <ol>
+            <li>86 Ranger: Was rear ended, I was not the driver</li>
+            <li>95 Sonoma: Was rear ended, I was the driver</li>
+            <li>91 S10: Hit windmill on family farm, it fell and damaged the truck</li>
+            <li>91 S10: Left roadway when it was wet outside, no damage to truck, but damage to yard I went into. Was
+              able to get back on road.</li>
+            <li>91 S10: Stopped abruptly and payload in the back slid and bent the bed against the cab</li>
+            <li>95 Aurora: Left road in Aurora dodging a pothole, spun around. No damage to car that day, but 2 tires
+              went flat next day, they found mud in them. Was able to get back on road.</li>
+            <li>95 Aurora: Hit road construction barrel for fun thinking it would go flying. It was full of sand/water
+              and didn&apos;t move. Damaged fender.</li>
+            <li>91 Lumina: (not my car) While driving it, engine started knocking, continued driving, engine died.</li>
+            <li>91 626: While driving it, engine overheated, continued driving, engine died.</li>
+            <li>98 Sonoma: Left road when it was icy, no damage to truck or property. Was able to get back on road.</li>
+            <li>98 Sonoma: Left road when wheel hub came off. Was able to get back on road and drive into town slowly
+              with wobbly wheel.</li>
+            <li>05 Xb: Hit spray paint can someone threw out of the car in front of me.</li>
+            <li>05 Xb: Rear ended Blazer that stopped abruptly</li>
+            <li>05 Xb: Hail damage, watched as storm rolled through and hail hit and damaged car</li>
+            <li>09 Vibe: Hit rock in the road, tire had to be replaced. Thought it was trash.</li>
+            <li>98 626: Rear ended Escape merging from on-ramp</li>
+            <li>13 FRS: Hit raccoon that was crossing the road</li>
+            <li>12 Xb: Left road when it was wet outside, no damage to xb, but damage to yard I went into and I was
+              able to get back on the road.</li>
+          </ol>
+        </div>
       </div>
     );
   }

@@ -11,40 +11,52 @@ import TTG from './ttg';
 import House from './house';
 import Birds from './birds';
 import Pictures from './pictures';
+import Uberxb from './uberxb';
 
 class Application extends React.Component {
   render() {
     return (
       <div className={'container'}>
         <Router>
-          <Navigation/>
           <div id="main" role="main">
             <Switch>
               <Route path="/about">
+                <Navigation/>
                 <About/>
               </Route>
               <Route path="/favorites">
+                <Navigation/>
                 <Favorites/>
               </Route>
               <Route path="/computer">
+                <Navigation/>
                 <Computer/>
               </Route>
               <Route path="/cars">
+                <Navigation/>
                 <Cars/>
               </Route>
               <Route path="/ttg">
+                <Navigation/>
                 <TTG/>
               </Route>
               <Route path="/house">
+                <Navigation/>
                 <House/>
               </Route>
               <Route path="/birds">
+                <Navigation/>
                 <Birds/>
               </Route>
               <Route path="/pictures">
+                <Navigation/>
                 <Pictures/>
               </Route>
+              <Route path="/uberxb">
+                <Uberxb/>
+              </Route>
               <Route path="/">
+                <Navigation/>
                 <Home/>
               </Route>
             </Switch>

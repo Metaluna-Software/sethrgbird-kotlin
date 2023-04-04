@@ -46,6 +46,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link to="pictures" className="nav-link navbar-custom-90">Pictures</Link>
             </li>
+            <li className="nav-item">
+              <Link to="uberxb" className="nav-link navbar-custom-90">UberXb</Link>
+            </li>
           </ul>
         </div>
       </div>
