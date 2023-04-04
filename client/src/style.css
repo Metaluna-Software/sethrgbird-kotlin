@@ -46,6 +46,17 @@
     max-width:100%;
 }
 
+.uberxb-heading {
+    color: #ffffff;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 97%);
+}
+
+.amazon-iframe {
+    width: 120px;
+    height: 240px;
+}
+
 .seth-tile-img img {
     max-height: 240px;
     padding: 5px;

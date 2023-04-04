@@ -13,9 +13,9 @@ class About extends React.Component {
         <p className="about">
           I am an Alumni of Indiana University. I have a Bachelor of Science degree in Informatics, which was my major
           and I minored in Business and Entrepreneurship at the Kelley School of Business. I am currently working for
-          Cerner which I started in Jan 2010 as a Support Analyst, moved to Sr. Software Analyst to Sr. Software
+          Oracle Cerner which I started in Jan 2010 as a Support Analyst, moved to Sr. Software Analyst to Sr. Software
           Consultant to Solution Architect to Software Engineer to Software Architect to Associate Lead Software
-          Engineer and now Lead Software Engineer. Check out <a href="http://www.cerner.com/public/">Cerner</a> for
+          Engineer to Lead Software Engineer to Software Developer 3. Check out <a href="http://www.cerner.com/public/">Cerner</a> for
           more details. I also build and
           maintain websites in my spare time for a couple of other organizations.
         </p>

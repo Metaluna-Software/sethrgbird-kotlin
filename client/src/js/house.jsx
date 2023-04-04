@@ -198,6 +198,30 @@ import GameRoom11 from '../images/house/gameroom/gameroom11.jpg';
 import GameRoom12 from '../images/house/gameroom/gameroom12.jpg';
 import GameRoom13 from '../images/house/gameroom/gameroom13.jpg';
 import GameRoom14 from '../images/house/gameroom/gameroom14.jpg';
+import Window00 from '../images/house/windows/window00.jpg';
+import Window01 from '../images/house/windows/window01.jpg';
+import Window02 from '../images/house/windows/window02.jpg';
+import Window03 from '../images/house/windows/window03.jpg';
+import Window05 from '../images/house/windows/window05.jpg';
+import Window06 from '../images/house/windows/window06.jpg';
+import Window07 from '../images/house/windows/window07.jpg';
+import Window08 from '../images/house/windows/window08.jpg';
+import Window09 from '../images/house/windows/window09.jpg';
+import Window10 from '../images/house/windows/window10.jpg';
+import Window11 from '../images/house/windows/window11.jpg';
+import Window12 from '../images/house/windows/window12.jpg';
+import Window13 from '../images/house/windows/window13.jpg';
+import Window14 from '../images/house/windows/window14.jpg';
+import Window15 from '../images/house/windows/window15.jpg';
+import Window16 from '../images/house/windows/window16.jpg';
+import Window17 from '../images/house/windows/window17.jpg';
+import Window18 from '../images/house/windows/window18.jpg';
+import Window19 from '../images/house/windows/window19.jpg';
+import Window20 from '../images/house/windows/window20.jpg';
+import Window21 from '../images/house/windows/window21.jpg';
+import Window22 from '../images/house/windows/window22.jpg';
+import Window23 from '../images/house/windows/window23.jpg';
+import Window24 from '../images/house/windows/window24.jpg';
 
 class House extends React.Component {
   render() {
@@ -699,6 +723,83 @@ class House extends React.Component {
           <img src={Radon5} alt={''} className={'seth-tile-img'}/>
           <img src={Radon6} alt={''} className={'seth-tile-img'}/>
           <img src={Radon7} alt={''} className={'seth-tile-img'}/>
+        </div>
+        <div className={'content-section'}>
+          <h3>Exterior Updates</h3>
+          <h4>Windows, Gutters, Columns, Doors</h4>
+          <p>The windows in the house were all vinyl replacements except 1 original wood style in the upstairs when
+            we moved in. The vinyl ones were
+            contractor grade with no glass coating or argon, so very inefficient and were essentially magnifying
+            sun. Curtains were a must for us. Some were also falling out of their track when we tried
+            to open them and the bitter wind would come through in the winter. Needless to say they were at the end of their life.</p>
+            <p>We didn&apos;t know much about replacement windows going into this project but learned a lot pretty quickly.
+            We acquired 10 bids for them, which was probably the max Matt could handle. We learned something new
+            everytime and quickly discovered companies we would never do business with (Andersen, Alenco, Window
+            Universe) and which companies seemed respectable with a good product that we included in our final round
+            (Four Seasons, Window World, Sears/Transform) with a group that fell in the middle as un-inspiring, but
+            probably fine we just removed them because of something we weren&apos;t getting with the others (Champion,
+            Exterior Energy Consultants, Lowes/Pella). I might write up a summary of this process at some point to share
+            what we learned.</p>
+            <p>The bid process was about 4 weeks with 3 being collection of the bids, then a week to ask follow up
+            questions from our finalists. Once we chose Sears/Transform we placed our order. It was just over 2 months
+            for the windows to be built and shipped with about 2 weeks until the contractor scheduled his install day
+            (week).</p>
+            <p>During the wait time, we went ahead and ordered a new front door with storm door for the contractor to
+            install as well. We also swapped the columns on the front porch to be solid steel instead of the cast iron
+            curly design. The contractor also agreed to fix the trim metal around the top of the columns.</p>
+            <p>Install day 1 rained, so delayed by 1 day the contractor took the next 4 days to complete the windows and
+            patio door, but was unable to finish the front door/porch at the time. It is planned for later.</p>
+            <p>The pictures aren&apos;t in an exact order, but sort of shows the process of removing and installing. We
+            had 3 places where we combined the 2 double hung style (removed the fake mullion) and made a single window
+            (2 sliders and 1 picture). We replaced 2 picture windows in the back bedroom with casements. We replaced 4
+            other double hungs on the first level with casements. On the 2nd floor the game room we got 2 of the same
+            size double hungs and hence the siding being removed to re-work the framing. We didn&apos;t have any extra
+            siding, so to fill in he used a white decorative siding at the top of the peak, which works for now and
+            looks a little strange, but its not terrible.
+            On one of the front 2nd floor windows, one of the panes cracked and is going to be replaced. I also included
+            extra pictures of the giant picture window being installed on the 2nd floor from the stairway. It was a
+            challenge for them, but they did it pretty smoothly once they came up with a plan; almost like they were
+            professionals.</p>
+          <p>Overall, a pretty smooth process for the amount of work completed (2nd most expensive project to date).
+            We didn&apos;t hit any real hiccups and I even got to use my credit card for miles despite getting the cash
+            discount, so extra perk!</p>
+          <p>The columns were swapped in favor of a more traditional look for the house (Craftsman house). The iron curly
+          columns were removed by jacking up 1 section of the porch at a time and replacing with steel square columns.</p>
+          <p>Both the back patio door and front door were also replaced with more energy efficient options. The front is
+          a fiberglass Therma Tru from Lowes called a Craftsman 6-lite.</p>
+          <p>We've also updated our accent color around the house from red to navy. This includes the entry doors and
+          other various artifacts around the house.</p>
+          <p>Lastly, we replaced the gutters on the ends of the house as well as the front porch. This aligns with the
+          gutters already added to the garage using the wider 6" vs a 4" gutter to account for the length and roof pitch.
+          In addition, we've added Leaf Filters to all gutters to ensure they remain clear, clean and working.</p>
+          <img src={Window00} alt={''} className={'seth-tile-img'}/>
+          <img src={Window01} alt={''} className={'seth-tile-img'}/>
+          <img src={Window02} alt={''} className={'seth-tile-img'}/>
+          <img src={Window03} alt={''} className={'seth-tile-img'}/>
+          <img src={Window05} alt={''} className={'seth-tile-img'}/>
+          <img src={Window06} alt={''} className={'seth-tile-img'}/>
+          <img src={Window07} alt={''} className={'seth-tile-img'}/>
+          <img src={Window08} alt={''} className={'seth-tile-img'}/>
+          <img src={Window09} alt={''} className={'seth-tile-img'}/>
+          <img src={Window10} alt={''} className={'seth-tile-img'}/>
+          <img src={Window11} alt={''} className={'seth-tile-img'}/>
+          <img src={Window12} alt={''} className={'seth-tile-img'}/>
+          <img src={Window13} alt={''} className={'seth-tile-img'}/>
+          <img src={Window14} alt={''} className={'seth-tile-img'}/>
+          <img src={Window15} alt={''} className={'seth-tile-img'}/>
+          <img src={Window16} alt={''} className={'seth-tile-img'}/>
+          <img src={Window17} alt={''} className={'seth-tile-img'}/>
+          <img src={Window18} alt={''} className={'seth-tile-img'}/>
+          <img src={Window19} alt={''} className={'seth-tile-img'}/>
+          <img src={Window20} alt={''} className={'seth-tile-img'}/>
+          <img src={Window21} alt={''} className={'seth-tile-img'}/>
+          <img src={Window22} alt={''} className={'seth-tile-img'}/>
+          <img src={Window23} alt={''} className={'seth-tile-img'}/>
+          <img src={Window24} alt={''} className={'seth-tile-img'}/>
+          <p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/LQ6YZ0uSCZk" frameBorder="0"
+                    allowFullScreen/>
+          </p>
         </div>
 
         <div className={'content-section'}>

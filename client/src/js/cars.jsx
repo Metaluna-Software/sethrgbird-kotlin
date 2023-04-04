@@ -162,6 +162,19 @@ import Cavalier0407 from '../images/cars/04_Cavalier_07.jpg';
 import Cavalier0408 from '../images/cars/04_Cavalier_08.jpg';
 import Cavalier0409 from '../images/cars/04_Cavalier_09.jpg';
 import Cavalier0410 from '../images/cars/04_Cavalier_10.jpg';
+import CaymanS2201 from '../images/cars/caymans_front.png';
+import CaymanS2202 from '../images/cars/caymans_back.png';
+import CaymanS2203 from '../images/cars/caymans_side.jpg';
+import Highlander2301 from '../images/cars/23_highlander_01.jpg';
+import Highlander2302 from '../images/cars/23_highlander_02.jpg';
+import Highlander2303 from '../images/cars/23_highlander_03.jpg';
+import Xb1201 from '../images/cars/12_xb_01.jpg';
+import Xb1202 from '../images/cars/12_xb_02.jpg';
+import Xb1203 from '../images/cars/12_xb_03.jpg';
+import Xb1204 from '../images/cars/12_xb_04.jpg';
+import Xb1205 from '../images/cars/12_xb_05.jpg';
+import Xb1206 from '../images/cars/12_xb_06.jpg';
+import Xb1207 from '../images/cars/12_xb_07.jpg';
 
 class Cars extends React.Component {
   render() {
@@ -174,7 +187,58 @@ class Cars extends React.Component {
             Enjoy</p>
         </div>
         <div className={'content-section'}>
-          <h5>(#21) 2021 Toyota Tundra (Apr 21 - ?)</h5>
+          <h5>(#24) 2023 Toyota Highlander (Dec 22 - ?) - Hannah</h5>
+          <p>I have been eyeing Highlanders for awhile (since maybe 2019) and was impressed with the comfort and
+            features. The Tundra was not getting driven much and I wanted something less expensive overall. Since we
+            were still in the car shortage era I opened 5 local Toyota dealer websites and started chats to see what
+            inventory looked like out there. I did not think a base model (LE) would suffice, but it was well equipped.
+            I was most interested in the Hybrid and on the fence with AWD. Overall, very happy with choice
+            (LE Fr Hybrid) and not
+            spending thousands more for things I really do not need feels good in the end. It only gets driven a couple
+            of times a week right now so it fits our lifestyle. We also did it as a lease, which I have not done since
+            the first XB, so look out 2025 Highlander!.</p>
+          <img src={Highlander2301} alt={'2023 highlander'} className={'seth-tile-img'}/>
+          <img src={Highlander2302} alt={'2023 highlander'} className={'seth-tile-img'}/>
+          <img src={Highlander2303} alt={'2023 highlander'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'content-section'}>
+          <h5>(#23) 2012 Scion Xb (Jul 22 - ?) - UberXb</h5>
+          <p>This one is an impulse buy mostly. I was looking for something smaller to commute around in and had
+          been looking for a small hatchback. While I do have this weird fascination with the Mirage, I could not find
+          one meeting my checklist. A dealer found this at another lot and we went to see it. After sitting in it and
+            driving it around, it felt familiar and met everything on my checklist.</p>
+          <img src={Xb1201} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1202} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1203} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1204} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1205} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1206} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+          <img src={Xb1207} alt={'2012 Uber Xb'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'content-section'}>
+          <h5>(#22) 2022 Porsche Cayman S (Mar 22 - ?)</h5>
+          <p>Technically Matt&apos;s car, but its our cars now, so it goes on the list. It seems soon since the Supra
+          but he was ready to step up. He found a reputable Porsche dealer (the one in KC is not) and ordered the
+          exact one he wanted from the website. We waited about 6 months for it to be made and shipped from Germany. It
+          survived the trek across the Atlantic (the other cargo ship did not -- see Felicity Ace).</p>
+          <p>In April, while Matt was at work and coming back from lunch, the engine started acting up. He had it towed
+          to the dealership here in KC. They thought it was the injectors, so we waited 2 weeks while they ordered and
+          replaced 2 of those. After that they realized Cylinder 1 was not holding compression and figured out it was
+          a de-burring issue with the block. We waited another week for them to decide how they were going to fix it.
+          At this point, Matt reached out to customer service at Porsche North America as we were getting the run
+          around on a rental and could not get clear answers from the dealership (see above about reputable). He was
+          assigned a case manager who quickly got us answers. He got a new engine block overnighted from Germany to
+          the service center for us, he agreed to reimburse us for the rental we had already and get us a Macan to
+          drive until it was fixed, which was about 1 more week. All in, it was about 5 weeks it was down. The new
+            block sounds better and it feels like all of the power is there now.</p>
+          <p>Matt is super paranoid about the noises it makes now, but since we have never owned an actual race car
+          before it is hard to know for sure what sounds are normal.</p>
+          <img src={CaymanS2203} alt={'2022 porsche cayman s side'} className={'seth-tile-img'}/>
+          <img src={CaymanS2201} alt={'2022 porsche cayman s front'} className={'seth-tile-img'}/>
+          <img src={CaymanS2202} alt={'2022 porsche cayman s back'} className={'seth-tile-img'}/>
+        </div>
+        <div className={'content-section'}>
+          <h5>(#21) 2021 Toyota Tundra (Apr 21 - Dec 22) - Tina</h5>
           <p>While looking at Supras that morning, Legends Toyota mentioned a Tundra that met our criteria had just
             arrived. They took the morning to prep and unpack it. 4 hours after buying the Supra and after test driving
             this Tundra we decided to jump into this as well. We then took the picture below that evening in front of
@@ -190,7 +254,7 @@ class Cars extends React.Component {
           <img src={TundraSupra} alt={'2021 toyota tundra supra'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#20) 2021 Toyota Supra (Apr 21 - ?)</h5>
+          <h5>(#20) 2021 Toyota Supra (Apr 21 - Mar 22)</h5>
           <p>Technically this is Matt&apos;s car, but as a married couple, I claim rights to display as ours haha. This
             idea had been brewing since February and Matt had been doing his research on it. It&apos;s a very fun car to
             drive and ride in, very smooth and fast! He pinned 3 dealers in KC against each other to get the best price
@@ -226,7 +290,7 @@ class Cars extends React.Component {
           <img src={Envoy0404} alt={'2004 gmc envoy xuv'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#18) 2017 Fiat 124 Spider Classica (Jul 18 - Apr 21)</h5>
+          <h5>(#18) 2017 Fiat 124 Spider Classica (Jul 18 - Apr 21) - Fifi</h5>
           <p>Our first driveable convertible (sorry, not sorry Sebring). Getting tired of driving the truck across
             Kansas City (40 min commute each way) every day and wanted
             something fun and better on gas. Looked at various cars and decided to see what Fiat offered. I was never
@@ -247,7 +311,7 @@ class Cars extends React.Component {
           <img src={Fiat1704} alt={'2017 124 fiat'} className={'seth-tile-img'}/>
         </div>
         <div className={'content-section'}>
-          <h5>(#17) 2018 Ford Fusion (Mar 18 - Apr 21)</h5>
+          <h5>(#17) 2018 Ford Fusion (Mar 18 - Apr 21) - Hayley</h5>
           <p>Caught our eye in late winter and we were ready for another change-up. This time we opted for the Hybrid.
             It looks like the same color, but this one is black, has a larger screen inside and push-button start. We
             also bought this one new. We definitely loved this one as much as the first one. We put 45k miles on it in a
@@ -818,6 +882,35 @@ class Cars extends React.Component {
         <div className={'content-section'}>
           <p>Hope you enjoyed looking at my cars. They are a big part of my life as you can see. My only regret is that
             some of the pictures I have are not of my actual car. I &apos;stole&apos; them from the Internets. Sshh.</p>
+        </div>
+        <div className={'content-section'}>
+          <h3>Accidents</h3>
+          <p>all listed, you decide if it counts against me</p>
+          <ol>
+            <li>86 Ranger: Was rear ended, I was not the driver</li>
+            <li>95 Sonoma: Was rear ended, I was the driver</li>
+            <li>91 S10: Hit windmill on family farm, it fell and damaged the truck</li>
+            <li>91 S10: Left roadway when it was wet outside, no damage to truck, but damage to yard I went into. Was
+              able to get back on road.</li>
+            <li>91 S10: Stopped abruptly and payload in the back slid and bent the bed against the cab</li>
+            <li>95 Aurora: Left road in Aurora dodging a pothole, spun around. No damage to car that day, but 2 tires
+              went flat next day, they found mud in them. Was able to get back on road.</li>
+            <li>95 Aurora: Hit road construction barrel for fun thinking it would go flying. It was full of sand/water
+              and didn&apos;t move. Damaged fender.</li>
+            <li>91 Lumina: (not my car) While driving it, engine started knocking, continued driving, engine died.</li>
+            <li>91 626: While driving it, engine overheated, continued driving, engine died.</li>
+            <li>98 Sonoma: Left road when it was icy, no damage to truck or property. Was able to get back on road.</li>
+            <li>98 Sonoma: Left road when wheel hub came off. Was able to get back on road and drive into town slowly
+              with wobbly wheel.</li>
+            <li>05 Xb: Hit spray paint can someone threw out of the car in front of me.</li>
+            <li>05 Xb: Rear ended Blazer that stopped abruptly</li>
+            <li>05 Xb: Hail damage, watched as storm rolled through and hail hit and damaged car</li>
+            <li>09 Vibe: Hit rock in the road, tire had to be replaced. Thought it was trash.</li>
+            <li>98 626: Rear ended Escape merging from on-ramp</li>
+            <li>13 FRS: Hit raccoon that was crossing the road</li>
+            <li>12 Xb: Left road when it was wet outside, no damage to xb, but damage to yard I went into and I was
+              able to get back on the road.</li>
+          </ol>
         </div>
       </div>
     );
