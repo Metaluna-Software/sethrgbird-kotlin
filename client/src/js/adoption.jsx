@@ -102,10 +102,12 @@ class Adoption extends React.Component {
                title={'picture matt took from our birding'}/>
           <img src={livingroom} alt={'house'} className={'seth-tile-img'} title={'our living room'}/>
           <img src={painting} alt={'house'} className={'seth-tile-img'} title={'painting on canvas by seth'}/>
-          <img src={videoGames} alt={'house'} className={'seth-tile-img'} title={'non-exhaustive shelf video game systems'}/>
+          <img src={videoGames} alt={'house'} className={'seth-tile-img'}
+               title={'non-exhaustive shelf video game systems'}/>
         </p>
         <p>We celebrate major Christian holidays as a tradition of our upbringing and family, however we are not
-          religious. Christmas and Halloween are our most celebrated holidays and decorations, candy and more can be
+          religious. Christmas and Halloween are our most celebrated holidays and decorations, candy, family and more
+          can be
           found in our home around those holidays.</p>
         <img src={christmas} alt={'house'} className={'seth-tile-img'} title={'christmas decor'}/>
         <img src={halloween} alt={'house'} className={'seth-tile-img'} title={'halloween decor'}/>
