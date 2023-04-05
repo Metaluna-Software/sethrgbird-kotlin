@@ -30,8 +30,9 @@ class Adoption extends React.Component {
     return (
       <div className={'content-section'}>
         <h2 className={'uberxb-heading'}>Matthew and Seth visual family profile</h2>
+        <p><span className={'image-note'}>Note: you can open the images in a new tab to expand them. Hover to see a caption.</span>
+        </p>
         <h3 className={'uberxb-heading'}>Introduction</h3>
-        <p><span className={'image-note'}>Note: you can open the images in a new tab to expand them.</span></p>
         <p>The Bird-Schwartz family consists of parents Seth and Matt. We met in 2013 in Leavenworth, Kansas and married
           in 2016 at our home in Kansas City, KS. Seth was born and raised in Indiana and works as
           a Software Engineer at Oracle Corp working on healthcare software.
@@ -89,19 +90,19 @@ class Adoption extends React.Component {
           shopping. Video games are also a part of our life and we play PC games mostly, but also console and VR.
         </p>
         <p>
-          <img src={dinner} alt={'us'} className={'seth-tile-img'} title={'find new places to eat'}/>
+          <img src={dinner} alt={'us'} className={'seth-tile-img'} title={'finding new places to eat'}/>
           <img src={carshow} alt={'us'} className={'seth-tile-img'} title={'attending local car shows'}/>
           <img src={projectGarden} alt={'us'} className={'seth-tile-img'}
                title={'building new nature habitats in our yard'}/>
           <img src={soccer} alt={'us'} className={'seth-tile-img'}
-               title={'sporting kc stadium is 2 miles away and is a fun weekend activity'}/>
+               title={'attending a sporting kc game'}/>
           <img src={Kubota1902} alt={'2019 Kubota BX2380'} className={'seth-tile-img'}
-               title={'Endless projects when you have a tractor'}/>
+               title={'endless projects when you have a tractor'}/>
           <img src={tuftedTitmouse} alt={'bird'} className={'seth-tile-img'}
-               title={'picture Matt took from our birding'}/>
+               title={'picture matt took from our birding'}/>
           <img src={livingroom} alt={'house'} className={'seth-tile-img'} title={'our living room'}/>
           <img src={painting} alt={'house'} className={'seth-tile-img'} title={'painting on canvas by seth'}/>
-          <img src={videoGames} alt={'house'} className={'seth-tile-img'} title={'non-exhaustive video game systems'}/>
+          <img src={videoGames} alt={'house'} className={'seth-tile-img'} title={'non-exhaustive shelf video game systems'}/>
         </p>
         <p>We celebrate major Christian holidays as a tradition of our upbringing and family, however we are not
           religious. Christmas and Halloween are our most celebrated holidays and decorations, candy and more can be
