@@ -21,6 +21,9 @@ import christmas from '../images/family/christmas.jpg';
 import halloween from '../images/family/halloween.jpg';
 import familyOnPorch from '../images/family/family.jpg';
 import bbq from '../images/family/bbq.jpg';
+import house01 from '../images/family/house01.jpg';
+import house02 from '../images/family/house02.jpg';
+import house03 from '../images/family/house03.jpg';
 import livingroom from '../images/family/livingroom.jpg';
 import Kubota1902 from '../images/cars/19_Kubota_02.jpg';
 import tuftedTitmouse from '../images/birds/tufted_titmouse.jpg';
@@ -45,6 +48,7 @@ class Adoption extends React.Component {
                title={'seth and matt at a friends reception'}/>
           <img src={usRecepWell} alt={'us'} className={'seth-tile-img'} title={'seth and matt by the well'}/>
           <img src={rings} alt={'us'} className={'seth-tile-img'} title={'our rings'}/>
+          <img src={house01} alt={'us'} className={'seth-tile-img'} title={'house'}/>
         </p>
         <p>We have 3 cats: Captain, Whopper and Mumba; a dog Theo and a hamster Gene. Theo is 80lbs and very good with
           people
@@ -104,11 +108,12 @@ class Adoption extends React.Component {
           <img src={painting} alt={'house'} className={'seth-tile-img'} title={'painting on canvas by seth'}/>
           <img src={videoGames} alt={'house'} className={'seth-tile-img'}
                title={'non-exhaustive shelf video game systems'}/>
+          <img src={house02} alt={'us'} className={'seth-tile-img'} title={'house'}/>
+          <img src={house03} alt={'us'} className={'seth-tile-img'} title={'house'}/>
         </p>
         <p>We celebrate major Christian holidays as a tradition of our upbringing and family, however we are not
           religious. Christmas and Halloween are our most celebrated holidays and decorations, candy, family and more
-          can be
-          found in our home around those holidays.</p>
+          can be found in our home around those holidays.</p>
         <img src={christmas} alt={'house'} className={'seth-tile-img'} title={'christmas decor'}/>
         <img src={halloween} alt={'house'} className={'seth-tile-img'} title={'halloween decor'}/>
         <h3 className={'uberxb-heading'}>Our goal</h3>
