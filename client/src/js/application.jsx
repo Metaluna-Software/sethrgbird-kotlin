@@ -12,6 +12,7 @@ import House from './house';
 import Birds from './birds';
 import Pictures from './pictures';
 import Uberxb from './uberxb';
+import Adoption from './adoption';
 
 class Application extends React.Component {
   render() {
@@ -54,6 +55,9 @@ class Application extends React.Component {
               </Route>
               <Route path="/uberxb">
                 <Uberxb/>
+              </Route>
+              <Route path="/adoption">
+                <Adoption/>
               </Route>
               <Route path="/">
                 <Navigation/>

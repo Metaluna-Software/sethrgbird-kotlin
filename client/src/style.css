@@ -46,6 +46,11 @@
     max-width:100%;
 }
 
+span.image-note {
+    color: gray;
+    font-size: 12px;
+}
+
 .uberxb-heading {
     color: #ffffff;
     background: rgb(0,212,255);
