@@ -29,6 +29,9 @@ import sulphurcrestedCockatoo from '../images/birds/sulphur-crested_cockatoo.jpg
 import eclectusParrot from '../images/birds/eclectus_parrot.jpg';
 import blackSwan from '../images/birds/black_swan.jpg';
 import strawneckedIbis from '../images/birds/straw-necked_ibis.jpg';
+import americanGoldfinch from '../images/birds/american_goldfinch.jpg';
+import coopersHawk from '../images/birds/coopers_hawk.jpg';
+import greatEgret from '../images/birds/great_egret.jpg';
 import '../style.css';
 
 class Birds extends React.Component {
@@ -249,6 +252,26 @@ class Birds extends React.Component {
             <h6><i>Threskiornis spinicollis</i></h6>
           </div>
 
+          <div className={'col-md-4 centered_birds'}>
+            <a href='../assets/coopers_hawk.jpg'><img src={coopersHawk} alt={''} className={'seth-tile-img-bird'}/></a>
+            <h4>Prarie Falcon</h4>
+            <h6>A member of the Falcon family (Falconidae) (</h6>
+            <h6><i>Falco mexicanus</i></h6>
+          </div>
+
+          <div className={'col-md-4 centered_birds'}>
+            <a href='../assets/great_egret.jpg'><img src={greatEgret} alt={''} className={'seth-tile-img-bird'}/></a>
+            <h4>Great Egret</h4>
+            <h6>A species of Egret </h6>
+            <h6><i>Ardea alba</i></h6>
+          </div>
+
+          <div className={'col-md-4 centered_birds'}>
+            <a href='../assets/american_goldfinch.jpg'><img src={americanGoldfinch} alt={''} className={'seth-tile-img-bird'}/></a>
+            <h4>American Goldfinch</h4>
+            <h6>A member of the Finch Family </h6>
+            <h6><i>Spinus tristis</i></h6>
+          </div>
         </div>
       </div>
     );
